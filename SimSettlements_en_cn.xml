@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SSTXMLRessources>
   <Params>
     <Addon>SimSettlements.esm</Addon>
@@ -14,34 +14,10 @@
       <Dest>地块标志</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_ResidentialPlot_SizeA_Wood</EDID>
-      <REC>ACTI:FULL</REC>
-      <Source>Residential Plot - Wood - Original Size</Source>
-      <Dest>居住地块标志 - 木制 - 旧大小</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_ResidentialPlot_SizeA_Wood</EDID>
-      <REC>ACTI:ATTX</REC>
-      <Source>Unoccupied Lot</Source>
-      <Dest>未占领的切分</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_CommercialPlot_SizeA</EDID>
-      <REC>ACTI:FULL</REC>
-      <Source>Commercial Plot</Source>
-      <Dest>商业地块标识</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_CommercialPlot_SizeA</EDID>
-      <REC>ACTI:ATTX</REC>
-      <Source>Unoccupied Lot</Source>
-      <Dest>未占领的切分</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Powered_RadioSpeaker</EDID>
-      <REC>ACTI:FULL</REC>
-      <Source>Amplified Speaker</Source>
-      <Dest>放大扬声器</Dest>
+      <EDID>kgSIM_WorkshopMenu_Base</EDID>
+      <REC>KYWD:FULL</REC>
+      <Source>Sim Settlements</Source>
+      <Dest>Sim Settlements</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_AgriculturalPlot_SizeA</EDID>
@@ -198,6 +174,12 @@
       <REC>ACTI:FULL</REC>
       <Source>Lamp</Source>
       <Dest>灯</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Powered_Jukebox</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Jukebox</Source>
+      <Dest>点唱机</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_IndustrialPlot_SizeA_Concrete</EDID>
@@ -386,6 +368,42 @@
       <Dest>未占领的切分</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_ResidentialPlot_SizeA_Wood</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Residential Plot - Wood - Original Size</Source>
+      <Dest>居住地块标志 - 木制 - 旧大小</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ResidentialPlot_SizeA_Wood</EDID>
+      <REC>ACTI:ATTX</REC>
+      <Source>Unoccupied Lot</Source>
+      <Dest>未占领的切分</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ConstructionSounds_LowTier</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Under Construction</Source>
+      <Dest>正在建设中</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Powered_RadioSpeaker</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Amplified Speaker</Source>
+      <Dest>放大扬声器</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_CommercialPlot_SizeA</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Commercial Plot</Source>
+      <Dest>商业地块标识</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_CommercialPlot_SizeA</EDID>
+      <REC>ACTI:ATTX</REC>
+      <Source>Unoccupied Lot</Source>
+      <Dest>未占领的切分</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_BuildingPlaque-Test</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Building Plaque</Source>
@@ -414,30 +432,6 @@
       <REC>CONT:FULL</REC>
       <Source>Cash Register</Source>
       <Dest>现金登记</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_RollUpDoor</EDID>
-      <REC>DOOR:FULL</REC>
-      <Source>Door</Source>
-      <Dest>门</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_IndMetalDoor01</EDID>
-      <REC>DOOR:FULL</REC>
-      <Source>Door</Source>
-      <Dest>门</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SP18_SlidingDoor</EDID>
-      <REC>DOOR:FULL</REC>
-      <Source>Conspicuous Wall</Source>
-      <Dest>显眼的墙</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SP18_SlidingDoor</EDID>
-      <REC>DOOR:ONAM</REC>
-      <Source>Push</Source>
-      <Dest>按下</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_PaintedWoodDoorWinA01</EDID>
@@ -482,16 +476,28 @@
       <Dest>梯子</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_PoweredLight_HightechWallLight</EDID>
-      <REC>LIGH:FULL</REC>
-      <Source>Lightbulb</Source>
-      <Dest>灯泡</Dest>
+      <EDID>kgSIM_RollUpDoor</EDID>
+      <REC>DOOR:FULL</REC>
+      <Source>Door</Source>
+      <Dest>门</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_PoweredLight_MetalDeskLamp</EDID>
-      <REC>LIGH:FULL</REC>
-      <Source>Lightbulb</Source>
-      <Dest>灯泡</Dest>
+      <EDID>kgSIM_SP18_SlidingDoor</EDID>
+      <REC>DOOR:FULL</REC>
+      <Source>Conspicuous Wall</Source>
+      <Dest>显眼的墙</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SP18_SlidingDoor</EDID>
+      <REC>DOOR:ONAM</REC>
+      <Source>Push</Source>
+      <Dest>按下</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_IndMetalDoor01</EDID>
+      <REC>DOOR:FULL</REC>
+      <Source>Door</Source>
+      <Dest>门</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_PoweredLightStringOfCagedLights01</EDID>
@@ -560,22 +566,16 @@
       <Dest>精致的灯</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_BuildingPlan_GeneralStore_SA_01</EDID>
-      <REC>MISC:FULL</REC>
-      <Source>Fresh Supplies by kinggath</Source>
-      <Dest>新鲜资源 by kinggath</Dest>
+      <EDID>kgSIM_PoweredLight_HightechWallLight</EDID>
+      <REC>LIGH:FULL</REC>
+      <Source>Lightbulb</Source>
+      <Dest>灯泡</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_BuildingPlan_HouseSF_SA_09</EDID>
-      <REC>MISC:FULL</REC>
-      <Source>Tin Can by kinggath</Source>
-      <Dest>锡罐 by kinggath</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_VIPStory_02</EDID>
-      <REC>MISC:FULL</REC>
-      <Source>Trading Addictions</Source>
-      <Dest>贸易上瘾</Dest>
+      <EDID>kgSIM_PoweredLight_MetalDeskLamp</EDID>
+      <REC>LIGH:FULL</REC>
+      <Source>Lightbulb</Source>
+      <Dest>灯泡</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_VIPStory_03</EDID>
@@ -594,6 +594,12 @@
       <REC>MISC:FULL</REC>
       <Source>Stray Savior</Source>
       <Dest>流浪的救世主</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_VIPStory_06</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Nuka Everything</Source>
+      <Dest>Nuka Everything</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_VIPStory_07</EDID>
@@ -632,6 +638,18 @@
       <Dest>垃圾</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_BuildingPlan_TutorialHouse</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Tutorial House by kinggath</Source>
+      <Dest>Tutorial House by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_VIPStoryTemplate</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>StoryName by AuthorName</Source>
+      <Dest>StoryName by AuthorName</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_VIPStory_13</EDID>
       <REC>MISC:FULL</REC>
       <Source>This Mega Reminds Me of Something</Source>
@@ -668,10 +686,28 @@
       <Dest>研磨，煮沸，重复</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_BuildingPlan_Industrial_Junk</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Industrial: Junk by kinggath</Source>
+      <Dest>Industrial: Junk by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlanPath_Junk_L1_SalvagePath</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Industrial Path - Junk L1 Salvage</Source>
+      <Dest>Industrial Path - Junk L1 Salvage</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_VIPStory_20</EDID>
       <REC>MISC:FULL</REC>
       <Source>What Does This Button Do?</Source>
       <Dest>这个按钮是做什么的？</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_PathL0_Scrapyard_SA_01</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Scrap Heap by kinggath</Source>
+      <Dest>Scrap Heap by kinggath</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_VIPStory_26</EDID>
@@ -686,10 +722,64 @@
       <Dest>克服损失</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_BuildingPlan_Bar_SA_01</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Open Bar by kinggath</Source>
+      <Dest>Open Bar by kinggath</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_ASAM_Box_of_Sensors</EDID>
       <REC>MISC:FULL</REC>
       <Source>Box of ASAM Sensors</Source>
       <Dest>一盒ASAM传感器</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_HouseSF_SA_01</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Wasteland Lounger by kinggath</Source>
+      <Dest>Wasteland Lounger by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlanTemplate</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Building Plan Name by Author</Source>
+      <Dest>Building Plan Name by Author</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlanPath_Junk_L1_RecyclePath</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Industrial Path - Junk L1 Recycle</Source>
+      <Dest>Industrial Path - Junk L1 Recycle</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlanPath_Junk_L2_SalvagePath_Civilian</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Industrial Path - Junk L2 Salvage Civilian</Source>
+      <Dest>Industrial Path - Junk L2 Salvage Civilian</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlanPath_Junk_L2_SalvagePath_Military</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Industrial Path - Junk L2 Salvage Military</Source>
+      <Dest>Industrial Path - Junk L2 Salvage Military</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlanPath_Junk_L2_RecyclePath_Civilian</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Industrial Path - Junk L2 Recycle Civilian</Source>
+      <Dest>Industrial Path - Junk L2 Recycle Civilian</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlanPath_Junk_L2_RecyclePath_Military</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Industrial Path - Junk L2 Recycle Military</Source>
+      <Dest>Industrial Path - Junk L2 Recycle Military</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlanPath_Junk_L0_Base</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Industrial Path - Junk L0 Base</Source>
+      <Dest>Industrial Path - Junk L0 Base</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_BuildingPlan_Industrial_Junk_SalvagePathL2_Test01</EDID>
@@ -698,10 +788,46 @@
       <Dest>垃圾拖车 by kinggath</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_BuildingPlan_HouseSF_SA_06</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Metal Prefabs by kinggath</Source>
+      <Dest>Metal Prefabs by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_Scrapyard_SA_01</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Scrap Heap by kinggath</Source>
+      <Dest>Scrap Heap by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_Farm_SA_01</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Tato Mud Farm by kinggath</Source>
+      <Dest>Tato Mud Farm by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_HouseSF_SA_05</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Max Shack by kinggath</Source>
+      <Dest>Max Shack by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_Clinic_SA_01</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Miracle Max, MD by kinggath</Source>
+      <Dest>Miracle Max, MD by kinggath</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_BuildingPlan_HouseSF_SA_10</EDID>
       <REC>MISC:FULL</REC>
       <Source>Corrugated Yurt by kinggath</Source>
       <Dest>波纹毡房 by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_ArmorStore_SA_01</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Securistop by kinggath</Source>
+      <Dest>Securistop by kinggath</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_ASAM_Sensor</EDID>
@@ -716,6 +842,36 @@
       <Dest>末路武器店 by kinggath</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_BuildingPlan_Farm_SA_07</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Mutfruit Mud Farm by kinggath</Source>
+      <Dest>Mutfruit Mud Farm by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_Farm_SA_06</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Razorgrain Mud Farm by kinggath</Source>
+      <Dest>Razorgrain Mud Farm by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_Farm_SA_05</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Melon Mud Farm by kinggath</Source>
+      <Dest>Melon Mud Farm by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_Farm_SA_04</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Gourd Mud Farm by kinggath</Source>
+      <Dest>Gourd Mud Farm by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_Farm_SA_03</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Corn Mud Farm by kinggath</Source>
+      <Dest>Corn Mud Farm by kinggath</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_BuildingPlan_Farm_SA_02</EDID>
       <REC>MISC:FULL</REC>
       <Source>Carrot Mud Farm by kinggath</Source>
@@ -728,10 +884,52 @@
       <Dest>变形的草棚 by kinggath</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_BuildingPlan_ClothingStore_SA_01</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Lil Fallon&apos;s by kinggath</Source>
+      <Dest>Lil Fallon&apos;s by kinggath</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_BuildingPlan_HouseSF_SA_03</EDID>
       <REC>MISC:FULL</REC>
       <Source>Trash Trailer by kinggath</Source>
       <Dest>垃圾拖车 by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_HouseSF_SA_02</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Outdoorsman by kinggath</Source>
+      <Dest>Outdoorsman by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_HouseSF_SA_04</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Single Window by kinggath</Source>
+      <Dest>Single Window by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_GeneralStore_SA_01</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Fresh Supplies by kinggath</Source>
+      <Dest>新鲜资源 by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_HouseSF_SA_08</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Raised Shack by kinggath</Source>
+      <Dest>Raised Shack by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingPlan_HouseSF_SA_09</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Tin Can by kinggath</Source>
+      <Dest>锡罐 by kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_VIPStory_02</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Trading Addictions</Source>
+      <Dest>贸易上瘾</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_Furniture_RuinedDresser02</EDID>
@@ -746,6 +944,54 @@
       <Dest>浮木</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_TestL0</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Test Building by King Gath</Source>
+      <Dest>Test Building by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L1_Stage6</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L1_Stage5</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L1_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L1_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L1_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L1_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Test</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>King Gath</Source>
+      <Dest>King Gath</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_BrassPlaqueBook</EDID>
       <REC>STAT:FULL</REC>
       <Source>Brass Plaque Book</Source>
@@ -758,16 +1004,142 @@
       <Dest>建筑材料</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_Template</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Building Name by Author Name</Source>
+      <Dest>Building Name by Author Name</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_XMarkerAlignTest</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>XMarkerAlignTest by King Gath</Source>
+      <Dest>XMarkerAlignTest by King Gath</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_PowerConnector</EDID>
       <REC>STAT:FULL</REC>
       <Source>Power Connector Visual Only</Source>
       <Dest>电源连接器仅可见</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L1_Stage7</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L2_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L1_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L2_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L2_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L3_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L2_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L2_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L2_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L1_Stage6</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L1_Stage5</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L1_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L1_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L1_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L1_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_BuildingMaterials_CorrugatedMetal_Wood</EDID>
       <REC>STAT:FULL</REC>
       <Source>Building Materials</Source>
       <Dest>建筑材料</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L3_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L2_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF02_SA_L3_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Outdoorsman by King Gath</Source>
+      <Dest>Outdoorsman by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L2_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_BuildingMaterials_Trailer</EDID>
@@ -786,6 +1158,12 @@
       <REC>STAT:FULL</REC>
       <Source>Trash Trailer by King Gath</Source>
       <Dest>垃圾拖车 by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L2_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_Furniture_RuinedDresser01</EDID>
@@ -852,6 +1230,12 @@
       <REC>STAT:FULL</REC>
       <Source>Single Window by King Gath</Source>
       <Dest>独窗户型 by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L3_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_BuildingMaterials_Wood</EDID>
@@ -998,10 +1382,184 @@
       <Dest>东方地毯</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L1_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L2_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L3_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L1_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L1_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L1_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L1_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L1_Stage5</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L2_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L2_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L2_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L2_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L2_Stage5</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF05_SA_L2_Stage6</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Max Shack by King Gath</Source>
+      <Dest>Max Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L1_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L2_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L3_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF01_SA_L1_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mourning Shack by King Gath</Source>
+      <Dest>Mourning Shack by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L3_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L3_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L3_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L2_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L2_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L2_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L1_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L1_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L1_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L1_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_BuildingMaterials_MetalFrames_Wood</EDID>
       <REC>STAT:FULL</REC>
       <Source>Building Materials</Source>
       <Dest>建筑材料</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF06_SA_L3_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Prefabs by Kinggath</Source>
+      <Dest>Metal Prefabs by Kinggath</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_HouseSF07_SA_L1_Final</EDID>
@@ -1098,6 +1656,78 @@
       <REC>STAT:FULL</REC>
       <Source>Toupee Shack by Kinggath</Source>
       <Dest>变形的草棚 by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L1_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L2_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L3_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L1_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L1_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L1_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L1_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L1_Stage5</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L2_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L2_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L2_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HouseSF08_SA_L1_Stage6</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raised Shack by Kinggath</Source>
+      <Dest>Raised Shack by Kinggath</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_HouseSF09_SA_L2_Final</EDID>
@@ -1256,6 +1886,78 @@
       <Dest>勺子</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_Bar01_SA_L2_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L2_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L2_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L2_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L1_Stage6</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L1_Stage5</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L1_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L1_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L1_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L1_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L1_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Bar01_SA_L3_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Open Bar by King Gath</Source>
+      <Dest>Open Bar by King Gath</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_GeneralStore01_SA_L3_Final</EDID>
       <REC>STAT:FULL</REC>
       <Source>Fresh Supplies by King Gath</Source>
@@ -1344,6 +2046,96 @@
       <REC>STAT:FULL</REC>
       <Source>Fresh Supplies by King Gath</Source>
       <Dest>新鲜资源 by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L1_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L1_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L1_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L1_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L1_Stage5</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L1_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L2_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L2_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L2_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L2_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L2_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L3_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L3_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L3_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ClothingStore01_SA_L3_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lil Fallon&apos;s by King Gath</Source>
+      <Dest>Lil Fallon&apos;s by King Gath</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_Prop_Sign_RestroomFemale_Armored</EDID>
@@ -1538,6 +2330,78 @@
       <Dest>安全小屋 by King Gath</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L3_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L3_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L3_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L3_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L2_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L2_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L2_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L1_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L1_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L1_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L1_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01_SA_L1_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>All Types of Medicine by King Gath</Source>
+      <Dest>All Types of Medicine by King Gath</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_Prop_OilCan</EDID>
       <REC>STAT:FULL</REC>
       <Source>Toilet</Source>
@@ -1548,6 +2412,162 @@
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
       <Dest>标志</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L3_Stage7</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L3_Stage6</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L3_Stage5</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L3_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L3_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L3_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L3_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L2_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L2_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L2_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L2_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L1_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L1_Stage5</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L1_Stage4</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L1_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L1_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L1_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L3_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L2_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrapyard01_SA_L1_Stage0</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scrap Heap by King Gath</Source>
+      <Dest>Scrap Heap by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Farm01_SA_L1_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mud Farm by King Gath</Source>
+      <Dest>Mud Farm by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Farm01_SA_L2_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mud Farm by King Gath</Source>
+      <Dest>Mud Farm by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Farm01_SA_L3_Final</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mud Farm by King Gath</Source>
+      <Dest>Mud Farm by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Farm01_SA_L3_Stage3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mud Farm by King Gath</Source>
+      <Dest>Mud Farm by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Farm01_SA_L3_Stage2</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mud Farm by King Gath</Source>
+      <Dest>Mud Farm by King Gath</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Farm01_SA_L3_Stage1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mud Farm by King Gath</Source>
+      <Dest>Mud Farm by King Gath</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_Prop_Painting_DogOrangeFrame</EDID>
@@ -1646,6 +2666,12 @@
       <Dest>绘画</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_DemoExplosionWoodLarge</EDID>
+      <REC>MSTT:FULL</REC>
+      <Source>Flying Wood Large</Source>
+      <Dest>飞木大</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_DemoExplosionWoodSmall</EDID>
       <REC>MSTT:FULL</REC>
       <Source>Flying Wood Small</Source>
@@ -1658,10 +2684,52 @@
       <Dest>破碎的混凝土</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_DemoExplosionWoodLarge</EDID>
-      <REC>MSTT:FULL</REC>
-      <Source>Flying Wood Large</Source>
-      <Dest>飞木大</Dest>
+      <EDID>kgSIM_FloraCornStalk02</EDID>
+      <REC>FLOR:FULL</REC>
+      <Source>Corn</Source>
+      <Dest>玉米</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_FloraCornStalk02</EDID>
+      <REC>FLOR:ATTX</REC>
+      <Source>Harvest</Source>
+      <Dest>收获</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_FloraRazorgrain02</EDID>
+      <REC>FLOR:FULL</REC>
+      <Source>Razorgrain</Source>
+      <Dest>刀片谷</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_FloraRazorgrain02</EDID>
+      <REC>FLOR:ATTX</REC>
+      <Source>Harvest</Source>
+      <Dest>收获</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_FloraRazorgrain01</EDID>
+      <REC>FLOR:FULL</REC>
+      <Source>Razorgrain</Source>
+      <Dest>刀片谷</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_FloraRazorgrain01</EDID>
+      <REC>FLOR:ATTX</REC>
+      <Source>Harvest</Source>
+      <Dest>收获</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_FloraTatoPlant02</EDID>
+      <REC>FLOR:FULL</REC>
+      <Source>Tato Plant</Source>
+      <Dest>铃薯植株</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_FloraTatoPlant02</EDID>
+      <REC>FLOR:ATTX</REC>
+      <Source>Harvest</Source>
+      <Dest>收获</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_FloraMelonVine01</EDID>
@@ -1734,60 +2802,6 @@
       <REC>FLOR:ATTX</REC>
       <Source>Harvest</Source>
       <Dest>收获</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_FloraCornStalk02</EDID>
-      <REC>FLOR:FULL</REC>
-      <Source>Corn</Source>
-      <Dest>玉米</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_FloraCornStalk02</EDID>
-      <REC>FLOR:ATTX</REC>
-      <Source>Harvest</Source>
-      <Dest>收获</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_FloraRazorgrain02</EDID>
-      <REC>FLOR:FULL</REC>
-      <Source>Razorgrain</Source>
-      <Dest>刀片谷</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_FloraRazorgrain02</EDID>
-      <REC>FLOR:ATTX</REC>
-      <Source>Harvest</Source>
-      <Dest>收获</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_FloraRazorgrain01</EDID>
-      <REC>FLOR:FULL</REC>
-      <Source>Razorgrain</Source>
-      <Dest>刀片谷</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_FloraRazorgrain01</EDID>
-      <REC>FLOR:ATTX</REC>
-      <Source>Harvest</Source>
-      <Dest>收获</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_FloraTatoPlant02</EDID>
-      <REC>FLOR:FULL</REC>
-      <Source>Tato Plant</Source>
-      <Dest>铃薯植株</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_FloraTatoPlant02</EDID>
-      <REC>FLOR:ATTX</REC>
-      <Source>Harvest</Source>
-      <Dest>收获</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_WorkbenchWeaponsB_TrimmedCollision</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Weapons Workbench</Source>
-      <Dest>武器工作台</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_ZoneCommercialSizeA_OLD</EDID>
@@ -2130,6 +3144,12 @@
       <REC>FURN:FULL</REC>
       <Source>Scrap General Bonus + 3</Source>
       <Dest>拾荒加成 + 3</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RatingModifier_Test</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Rating Modifier Test</Source>
+      <Dest>Rating Modifier Test</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_ZoneCommercialSizeA_Concrete_OLD</EDID>
@@ -2534,6 +3554,60 @@
       <Dest>床</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_WorkbenchWeaponsB_TrimmedCollision</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Weapons Workbench</Source>
+      <Dest>武器工作台</Dest>
+    </String>
+    <String List="0">
+      <EDID>WoodLauncher</EDID>
+      <REC id="0">WEAP:FULL</REC>
+      <Source>Wood FX</Source>
+      <Dest>木头特效</Dest>
+    </String>
+    <String List="0">
+      <EDID>WoodLauncher</EDID>
+      <REC id="1">WEAP:FULL</REC>
+      <Source>Default</Source>
+      <Dest>默认</Dest>
+    </String>
+    <String List="0">
+      <EDID>WoodLauncher</EDID>
+      <REC id="2">WEAP:FULL</REC>
+      <Source>Standard</Source>
+      <Dest>标准</Dest>
+    </String>
+    <String List="0">
+      <EDID>WoodLauncher</EDID>
+      <REC id="3">WEAP:FULL</REC>
+      <Source>Standard Epic</Source>
+      <Dest>标准的史诗</Dest>
+    </String>
+    <String List="0">
+      <EDID>ConcreteLauncher</EDID>
+      <REC id="0">WEAP:FULL</REC>
+      <Source>Concrete FX</Source>
+      <Dest>混凝土特效</Dest>
+    </String>
+    <String List="0">
+      <EDID>ConcreteLauncher</EDID>
+      <REC id="1">WEAP:FULL</REC>
+      <Source>Default</Source>
+      <Dest>默认</Dest>
+    </String>
+    <String List="0">
+      <EDID>ConcreteLauncher</EDID>
+      <REC id="2">WEAP:FULL</REC>
+      <Source>Standard</Source>
+      <Dest>标准</Dest>
+    </String>
+    <String List="0">
+      <EDID>ConcreteLauncher</EDID>
+      <REC id="3">WEAP:FULL</REC>
+      <Source>Standard Epic</Source>
+      <Dest>标准的史诗</Dest>
+    </String>
+    <String List="0">
       <EDID>FarmLauncher</EDID>
       <REC id="0">WEAP:FULL</REC>
       <Source>Farm FX</Source>
@@ -2606,54 +3680,6 @@
       <Dest>史诗简单</Dest>
     </String>
     <String List="0">
-      <EDID>WoodLauncher</EDID>
-      <REC id="0">WEAP:FULL</REC>
-      <Source>Wood FX</Source>
-      <Dest>木头特效</Dest>
-    </String>
-    <String List="0">
-      <EDID>WoodLauncher</EDID>
-      <REC id="1">WEAP:FULL</REC>
-      <Source>Default</Source>
-      <Dest>默认</Dest>
-    </String>
-    <String List="0">
-      <EDID>WoodLauncher</EDID>
-      <REC id="2">WEAP:FULL</REC>
-      <Source>Standard</Source>
-      <Dest>标准</Dest>
-    </String>
-    <String List="0">
-      <EDID>WoodLauncher</EDID>
-      <REC id="3">WEAP:FULL</REC>
-      <Source>Standard Epic</Source>
-      <Dest>标准的史诗</Dest>
-    </String>
-    <String List="0">
-      <EDID>ConcreteLauncher</EDID>
-      <REC id="0">WEAP:FULL</REC>
-      <Source>Concrete FX</Source>
-      <Dest>混凝土特效</Dest>
-    </String>
-    <String List="0">
-      <EDID>ConcreteLauncher</EDID>
-      <REC id="1">WEAP:FULL</REC>
-      <Source>Default</Source>
-      <Dest>默认</Dest>
-    </String>
-    <String List="0">
-      <EDID>ConcreteLauncher</EDID>
-      <REC id="2">WEAP:FULL</REC>
-      <Source>Standard</Source>
-      <Dest>标准</Dest>
-    </String>
-    <String List="0">
-      <EDID>ConcreteLauncher</EDID>
-      <REC id="3">WEAP:FULL</REC>
-      <Source>Standard Epic</Source>
-      <Dest>标准的史诗</Dest>
-    </String>
-    <String List="0">
       <EDID>kgSIM_DangerRags_RoofBot</EDID>
       <REC id="0">NPC_:FULL</REC>
       <Source>Default</Source>
@@ -2708,6 +3734,12 @@
       <Dest>松饼先生</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_Actor_CatstonGarvey</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Catston Garvey</Source>
+      <Dest>Catston Garvey</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_Actor_MamaMeowfy</EDID>
       <REC>NPC_:FULL</REC>
       <Source>Mama Meowfy</Source>
@@ -2760,968 +3792,6 @@
       <REC>NOTE:FULL</REC>
       <Source>City Manager 2078 Holotape</Source>
       <Dest>城市管家2078全像卡带</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_TownHall_Terminal</EDID>
-      <REC>TERM:FULL</REC>
-      <Source>Terminal</Source>
-      <Dest>终端机</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_TownHall_Terminal</EDID>
-      <REC>TERM:BTXT</REC>
-      <Source>
-=================================================
-        &lt;User &quot;Jane Williams&quot; signed in&gt;
-=================================================
-
-</Source>
-      <Dest>
-=================================================
-        &lt;用户 &quot;Jane Williams&quot; 已登录 &gt;
-=================================================
-
-</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_TownHall_Terminal</EDID>
-      <REC id="0">TERM:ITXT</REC>
-      <Source>Wrong Sensors, Wrong Everything!</Source>
-      <Dest>错误的传感器，毁灭一切！</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_TownHall_Terminal</EDID>
-      <REC id="0">TERM:RNAM</REC>
-      <Source>Loading Memo...</Source>
-      <Dest>加载备忘录…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_TownHall_Terminal</EDID>
-      <REC id="0">TERM:UNAM</REC>
-      <Source>To Whom it May Concern,
-
-We received the new version of your program, but you sent us the Pipboy edition! And all these doohickies you sent us are last year&apos;s model! There are hundreds of them, what are we going to do with all of these?
-
-We expect you to send a courier to pick these up, as well as deliver the correct program, the newer model ones we ordered - AND we want all the optional features thrown in for our trouble - including the taser!
-
-Sincerely,
-
-Jane Williams
-Office of the Mayor
-Concord, MA</Source>
-      <Dest>任何可能会关注人：
-
-我们收到了你的程序的新版本，但你给我们的是pipboy版！所有这些你寄给我们的狗屎是去年的模型！有成百上千的个！我们要怎么处理这些？
-
-我们希望你派个快递员把这些拿走，以及顺便提供正确的程序，新的模型！-包括我们希望所有的可选功能，能解决我们的麻烦！包括泰瑟枪！
-
-真诚的，
-简·威廉姆斯
-市长办公室
-康科德，马萨诸塞</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_TownHall_Terminal</EDID>
-      <REC id="1">TERM:ITXT</REC>
-      <Source>RE: Renovations</Source>
-      <Dest>回复：装修</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_TownHall_Terminal</EDID>
-      <REC id="1">TERM:RNAM</REC>
-      <Source>Loading Message from mharrison...</Source>
-      <Dest>加载来自 mharrson的信息…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_TownHall_Terminal</EDID>
-      <REC id="1">TERM:UNAM</REC>
-      <Source>Oh thank god! I don&apos;t think I can take many more colonial flute and drums!
-
--Marge
-
-===================================
-From: Jane, Williams
-Subject: Renovations
-===================================
-
-I just heard from upstairs that the renovations are almost done, only a month or so more. We&apos;ll probably be back to City Hall before Thanksgiving!
-
--Jane</Source>
-      <Dest>哦感谢上帝！我不认为我可以拿更多的殖民长笛和鼓！
-
--玛姬
-===================================
-来自：简，威廉姆斯
-主题：装修
-===================================
-
-我刚从楼上听说装修差不多就完成了，只剩下一个月左右了。感恩节前我们可能会回到市政厅！
-
--简</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC>TERM:WNAM</REC>
-      <Source>Agricultural Tax Rate</Source>
-      <Dest>农业税</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC>TERM:FULL</REC>
-      <Source>Tax Rates</Source>
-      <Dest>税率</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC>TERM:BTXT</REC>
-      <Source> Tax Rate determines how much money your citizens must pay in taxes for each of their respective plots.</Source>
-      <Dest>税率决定你的公民必须为他们各自使用的各种土地支付多少税收。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="0">TERM:ITXT</REC>
-      <Source>Standard</Source>
-      <Dest>标准</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="0">TERM:RNAM</REC>
-      <Source>Changing Tax Rate...</Source>
-      <Dest>更改税率....</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="0">TERM:UNAM</REC>
-      <Source>Citizens will now be charged the normal calculated tax rate for Agricultural Plots.</Source>
-      <Dest>市民的农业地块现在将收取正常税金。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="1">TERM:ITXT</REC>
-      <Source>Half</Source>
-      <Dest>一半</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="1">TERM:RNAM</REC>
-      <Source>Changing Tax Rate...</Source>
-      <Dest>更改税率....</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="1">TERM:UNAM</REC>
-      <Source>Citizens will now be charged half the calculated tax rate for Agricultural Plots.
-</Source>
-      <Dest>市民的农业地块现在将收取一半的税金。
-</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="2">TERM:ITXT</REC>
-      <Source>No Tax</Source>
-      <Dest>无税</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="2">TERM:RNAM</REC>
-      <Source>Changing Tax Rate...</Source>
-      <Dest>更改税率....</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="2">TERM:UNAM</REC>
-      <Source>Citizens will no longer be charged taxes for Agricultural Plots.
-
-</Source>
-      <Dest>市民的农业地块现在将免除税金。
-
-</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="3">TERM:ITXT</REC>
-      <Source>Double</Source>
-      <Dest>双倍</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="3">TERM:RNAM</REC>
-      <Source>Changing Tax Rate...</Source>
-      <Dest>更改税率....</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
-      <REC id="3">TERM:UNAM</REC>
-      <Source>Citizens will now be charged double the calculated tax rate for Agricultural Plots.
-</Source>
-      <Dest>市民的农业地块现在将被收取两倍的税收。
-</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC>TERM:WNAM</REC>
-      <Source>Industrial Tax Rate</Source>
-      <Dest>工业税</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC>TERM:FULL</REC>
-      <Source>Tax Rates</Source>
-      <Dest>税率</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC>TERM:BTXT</REC>
-      <Source> Tax Rate determines how much money your citizens must pay in taxes for each of their respective plots.</Source>
-      <Dest>税率决定你的公民必须为他们各自使用的各种土地支付多少税收。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="0">TERM:ITXT</REC>
-      <Source>Standard</Source>
-      <Dest>标准</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="0">TERM:RNAM</REC>
-      <Source>Changing Tax Rate...</Source>
-      <Dest>更改税率....</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="0">TERM:UNAM</REC>
-      <Source>Citizens will now be charged the normal calculated tax rate for Industrial Plots.</Source>
-      <Dest>市民的工业地块现在将收取正常税金。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="1">TERM:ITXT</REC>
-      <Source>Half</Source>
-      <Dest>一半</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="1">TERM:RNAM</REC>
-      <Source>Changing Tax Rate...</Source>
-      <Dest>更改税率....</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="1">TERM:UNAM</REC>
-      <Source>Citizens will now be charged half the calculated tax rate for Industrial Plots.
-</Source>
-      <Dest>市民的工业地块现在将收取一半税金。
-</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="2">TERM:ITXT</REC>
-      <Source>No Tax</Source>
-      <Dest>无税</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="2">TERM:RNAM</REC>
-      <Source>Changing Tax Rate...</Source>
-      <Dest>更改税率....</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="2">TERM:UNAM</REC>
-      <Source>Citizens will no longer be charged taxes for Industrial Plots.
-
-</Source>
-      <Dest>市民的工业地块现在将免除税金。
-
-</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="3">TERM:ITXT</REC>
-      <Source>Double</Source>
-      <Dest>双倍</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="3">TERM:RNAM</REC>
-      <Source>Changing Tax Rate...</Source>
-      <Dest>更改税率....</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
-      <REC id="3">TERM:UNAM</REC>
-      <Source>Citizens will now be charged double the calculated tax rate for Industrial Plots.
-</Source>
-      <Dest>市民的工业地块现在将被收取两倍的税收。
-</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC>TERM:WNAM</REC>
-      <Source>Tax Laws</Source>
-      <Dest>税收法令</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC>TERM:FULL</REC>
-      <Source>Taxes</Source>
-      <Dest>税收</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="0">TERM:ITXT</REC>
-      <Source>Tax Cycle: Daily</Source>
-      <Dest>税收周期：每日</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="0">TERM:RNAM</REC>
-      <Source>Loading Tax Cycle Options...</Source>
-      <Dest>加载税收循环选项…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="1">TERM:ITXT</REC>
-      <Source>Tax Cycle: Every 2 Days</Source>
-      <Dest>税收周期：每2天</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="1">TERM:RNAM</REC>
-      <Source>Loading Tax Cycle Options...</Source>
-      <Dest>加载税收循环选项…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="2">TERM:ITXT</REC>
-      <Source>Tax Cycle: Every 3 Days</Source>
-      <Dest>税收周期：每3天</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="2">TERM:RNAM</REC>
-      <Source>Loading Tax Cycle Options...</Source>
-      <Dest>加载税收循环选项…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="3">TERM:ITXT</REC>
-      <Source>Tax Cycle: Every 5 Days</Source>
-      <Dest>税收周期：每5天</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="3">TERM:RNAM</REC>
-      <Source>Loading Tax Cycle Options...</Source>
-      <Dest>加载税收循环选项…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="4">TERM:ITXT</REC>
-      <Source>Tax Cycle: Weekly</Source>
-      <Dest>税收周期：每周</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="4">TERM:RNAM</REC>
-      <Source>Loading Tax Cycle Options...</Source>
-      <Dest>加载税收循环选项…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="5">TERM:ITXT</REC>
-      <Source>Tax Cycle: Bi-Weekly</Source>
-      <Dest>税收周期：双周</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="5">TERM:RNAM</REC>
-      <Source>Loading Tax Cycle Options...</Source>
-      <Dest>加载税收循环选项…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="6">TERM:ITXT</REC>
-      <Source>Tax Cycle: Monthly</Source>
-      <Dest>税收周期：每月</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="6">TERM:RNAM</REC>
-      <Source>Loading Tax Cycle Options...</Source>
-      <Dest>加载税收循环选项…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="7">TERM:ITXT</REC>
-      <Source>Agricultural Tax Rate: Standard</Source>
-      <Dest>农业税：标准</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="7">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="8">TERM:ITXT</REC>
-      <Source>Agricultural Tax Rate: Half</Source>
-      <Dest>农业税：减半</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="8">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="9">TERM:ITXT</REC>
-      <Source>Agricultural Tax Rate: No Tax</Source>
-      <Dest>农业税：无</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="9">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="10">TERM:ITXT</REC>
-      <Source>Agricultural Tax Rate: Double</Source>
-      <Dest>农业税：加倍</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="10">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="11">TERM:ITXT</REC>
-      <Source>Commercial Tax Rate: Standard</Source>
-      <Dest>商业税：标准</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="11">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="12">TERM:ITXT</REC>
-      <Source>Commercial Tax Rate: Half</Source>
-      <Dest>商业税：减半</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="12">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="13">TERM:ITXT</REC>
-      <Source>Commercial Tax Rate: No Tax</Source>
-      <Dest>商业税：无</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="13">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="14">TERM:ITXT</REC>
-      <Source>Commercial Tax Rate: Double</Source>
-      <Dest>商业税：加倍</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="14">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="15">TERM:ITXT</REC>
-      <Source>Industrial Tax Rate: Standard</Source>
-      <Dest>工业税：标准</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="15">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="16">TERM:ITXT</REC>
-      <Source>Industrial Tax Rate: Half</Source>
-      <Dest>工业税：减半</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="16">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="17">TERM:ITXT</REC>
-      <Source>Industrial Tax Rate: No Tax</Source>
-      <Dest>工业税：无</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="17">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="18">TERM:ITXT</REC>
-      <Source>Industrial Tax Rate: Double</Source>
-      <Dest>工业税：加倍</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="18">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="19">TERM:ITXT</REC>
-      <Source>Residential Tax Rate: Standard</Source>
-      <Dest>住宅税：标准</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="19">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="20">TERM:ITXT</REC>
-      <Source>Residential Tax Rate: Half</Source>
-      <Dest>住宅税：减半</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="20">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="21">TERM:ITXT</REC>
-      <Source>Residential Tax Rate: No Tax</Source>
-      <Dest>住宅税：无</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="21">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="22">TERM:ITXT</REC>
-      <Source>Residential Tax Rate: Double</Source>
-      <Dest>住宅税：加倍</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
-      <REC id="22">TERM:RNAM</REC>
-      <Source>Loading Tax Rate Options...</Source>
-      <Dest>载入税务选项...</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC>TERM:FULL</REC>
-      <Source>Clinic Terminal</Source>
-      <Dest>临床终端</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="0">TERM:ITXT</REC>
-      <Source>Patient Record 61582</Source>
-      <Dest>病人记录61582</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="0">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="0">TERM:UNAM</REC>
-      <Source>Patient has chest pain if she lies on her left side for over a year.</Source>
-      <Dest>如果病人躺在她的左侧超过一年，她会胸痛。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="1">TERM:ITXT</REC>
-      <Source>Patient Record 79302</Source>
-      <Dest>病人记录79302</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="1">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="1">TERM:UNAM</REC>
-      <Source>Rectal examination revealed a normal sized thyroid.</Source>
-      <Dest>直肠检查显示甲状腺大小正常。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="2">TERM:ITXT</REC>
-      <Source>Patient Record 50716</Source>
-      <Dest>病人记录50716</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="2">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="2">TERM:UNAM</REC>
-      <Source>Skin: somewhat pale but present.</Source>
-      <Dest>皮肤：有点苍白，但存在。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="3">TERM:ITXT</REC>
-      <Source>Patient Record 82721</Source>
-      <Dest>病人记录82721</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="3">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="3">TERM:UNAM</REC>
-      <Source>Occasional, constant, infrequent headaches.</Source>
-      <Dest>偶然的，持续的，罕见的头痛。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="4">TERM:ITXT</REC>
-      <Source>Patient Record 29807</Source>
-      <Dest>病人记录29807</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="4">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="4">TERM:UNAM</REC>
-      <Source>Patient was alert and unresponsive.</Source>
-      <Dest>病人警觉和反应迟钝。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="5">TERM:ITXT</REC>
-      <Source>Patient Record 92573</Source>
-      <Dest>病人记录92573</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="5">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="5">TERM:UNAM</REC>
-      <Source>The patient has no previous history of suicides.</Source>
-      <Dest>患者既往无自杀史。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="6">TERM:ITXT</REC>
-      <Source>Patient Record 76217</Source>
-      <Dest>病人记录76217</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="6">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="6">TERM:UNAM</REC>
-      <Source>Acute pain related to witchcraft.</Source>
-      <Dest>与巫术有关的急性疼痛。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="7">TERM:ITXT</REC>
-      <Source>Patient Record 61272</Source>
-      <Dest>病人记录61272</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="7">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="7">TERM:UNAM</REC>
-      <Source>She is numbed from her toes down.</Source>
-      <Dest>她从她的脚趾开始麻木。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="8">TERM:ITXT</REC>
-      <Source>Patient Record 24740</Source>
-      <Dest>病人记录24740</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="8">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="8">TERM:UNAM</REC>
-      <Source>She stated that she had been constipated for most of her life, until she found Atom.</Source>
-      <Dest>她说她已经便秘了她大半辈子，直到她发现原子。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="9">TERM:ITXT</REC>
-      <Source>Patient Record 64590</Source>
-      <Dest>病人记录64590</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="9">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="9">TERM:UNAM</REC>
-      <Source>Bowel incontinence related to shyness.</Source>
-      <Dest>与害羞有关的大便失禁。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="10">TERM:ITXT</REC>
-      <Source>Patient Record 73542</Source>
-      <Dest>病人记录73542</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="10">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="10">TERM:UNAM</REC>
-      <Source>Discharge status: Alive but without permission.</Source>
-      <Dest>放电状态：活着但未经许可。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="11">TERM:ITXT</REC>
-      <Source>Patient Record 66689</Source>
-      <Dest>病人记录66689</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="11">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="11">TERM:UNAM</REC>
-      <Source>The patient refused autopsy.</Source>
-      <Dest>病人拒绝尸检。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="12">TERM:ITXT</REC>
-      <Source>Patient Record 61638</Source>
-      <Dest>病人记录61638</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="12">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="12">TERM:UNAM</REC>
-      <Source>Advised patient to take a bath.</Source>
-      <Dest>劝病人洗澡。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="13">TERM:ITXT</REC>
-      <Source>Patient Record 59409</Source>
-      <Dest>病人记录59409</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="13">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="13">TERM:UNAM</REC>
-      <Source>Both breasts are equal and reactive to light and touch.</Source>
-      <Dest>两个乳房都是一样的，无论对光和触摸的反应。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="14">TERM:ITXT</REC>
-      <Source>Patient Record 32502</Source>
-      <Dest>病人记录32502</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="14">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="14">TERM:UNAM</REC>
-      <Source>The patient�s feces are the same color as the door on my house.</Source>
-      <Dest>病人的粪便和我家门口的颜色一样。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="15">TERM:ITXT</REC>
-      <Source>Patient Record 33497</Source>
-      <Dest>病人记录33497</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="15">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="15">TERM:UNAM</REC>
-      <Source>The patient has done well without oxygen for the past year.</Source>
-      <Dest>病人过去一年没有氧气做得很好。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="16">TERM:ITXT</REC>
-      <Source>Patient Record 78137</Source>
-      <Dest>病人记录78137</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="16">TERM:RNAM</REC>
-      <Source>Loading Notes...</Source>
-      <Dest>加载提示…</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Clinic01</EDID>
-      <REC id="16">TERM:UNAM</REC>
-      <Source>All visible brain tissue had been removed. The patient has no neurological complaints after surgery.</Source>
-      <Dest>所有可见的脑组织已被移除。患者术后无神经系统主诉。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
-      <REC>TERM:WNAM</REC>
-      <Source>Atomic Command Awaits</Source>
-      <Dest>原子命令等待</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
-      <REC>TERM:FULL</REC>
-      <Source>Terminal</Source>
-      <Dest>终端机</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
-      <REC id="0">TERM:ITXT</REC>
-      <Source>Holy Crap It Works!</Source>
-      <Dest>日了！居然真行！</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
-      <REC id="0">TERM:UNAM</REC>
-      <Source>I can&apos;t believe I finally fixed one! Suck it, Steve!
-
-This is so exciting! I can store my notes, view all those holotapes I found, I can even start learning to hack! Those Vault computers are as good as mine!
-
-Ok, ok, time to focus and study up! Let&apos;s start with this tape - PipFall.</Source>
-      <Dest>我不敢相信我终于修好了！操！，史提夫！
-
-这是如此令人兴奋！我可以储存我的笔记，看那些全像卡带我发现，我甚至可以开始学习黑客！那些金库计算机和我的一样好！
-
-好的，时间集中和研究起来！让我们用这盘磁带开始：PipFall。</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
-      <REC id="1">TERM:ITXT</REC>
-      <Source>Gotta Find More</Source>
-      <Dest>要找到更多</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
-      <REC id="1">TERM:UNAM</REC>
-      <Source>Video games are incredible! I feel like I discovered the cure to Rad sickness... they help me relieve stress, they keep my mind firing, and most importantly they let me escape this hell we call life!
-
-It makes me wonder how the world even ended, they should have just given games to everyone and there would have been nothing to fight over...
-
-I&apos;ve got to find more! I&apos;ll put the word out with Carla, she can bring me tapes - maybe even old terminals, somebody has to have left a game or two inside of one!</Source>
-      <Dest>电子游戏令人难以置信！我觉得我发现了治愈RAD病的方法…他们帮助我减轻压力，他们让我的思想燃烧，最重要的是他们让我逃离这地狱！我们称之为生活！
-
-它让我想知道世界是如何结束的，他们应该给每个人游戏，然后就没有什么不可以战胜…
-
-我必须找到更多！我会把这个告诉卡拉，她可以给我带来磁带-也许甚至老终端机，有人已经会在里面存着一两个游戏！</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
-      <REC id="2">TERM:ITXT</REC>
-      <Source>All At Once</Source>
-      <Dest>一次全部</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
-      <REC id="2">TERM:UNAM</REC>
-      <Source>I think I found a way where I can play all the games at once!
-
-I just need more screens! </Source>
-      <Dest>我想我找到了一个可以同时玩所有游戏的方法！
-
-我只需要更多的屏幕！</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_Terminal_Story13L3</EDID>
@@ -5824,166 +5894,1218 @@ Monitoring Resource Usage - Be sure to keep track of how many city resources are
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
       <REC id="13">TERM:ITXT</REC>
+      <Source>Demolition FX: ON</Source>
+      <Dest>爆破特效：开启</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
+      <REC id="13">TERM:RNAM</REC>
+      <Source>Turning off demolition effects...</Source>
+      <Dest>关闭爆破特效…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
+      <REC id="14">TERM:ITXT</REC>
+      <Source>Demolition FX: OFF</Source>
+      <Dest>爆破特效：关闭</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
+      <REC id="14">TERM:RNAM</REC>
+      <Source>Turning on demolition effects...</Source>
+      <Dest>开启爆破特效…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
+      <REC id="15">TERM:ITXT</REC>
       <Source>Dynamic Needs: ON</Source>
       <Dest>动态需求：开启</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="13">TERM:RNAM</REC>
+      <REC id="15">TERM:RNAM</REC>
       <Source>Turning off Dynamic Needs</Source>
       <Dest>关闭 动态需求…</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="14">TERM:ITXT</REC>
+      <REC id="16">TERM:ITXT</REC>
       <Source>Dynamic Needs: OFF</Source>
       <Dest>动态需求: 关闭</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="14">TERM:RNAM</REC>
+      <REC id="16">TERM:RNAM</REC>
       <Source>Turning on Dynamic Needs</Source>
       <Dest>开启 动态需求...</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="15">TERM:ITXT</REC>
+      <REC id="17">TERM:ITXT</REC>
       <Source>Hold Upgrades Until I See Them: ON</Source>
       <Dest>暂停升级直到我看到它们: 开启</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="15">TERM:RNAM</REC>
+      <REC id="17">TERM:RNAM</REC>
       <Source>Turning off personal inspections...</Source>
       <Dest>关闭 个人检视…</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="16">TERM:ITXT</REC>
+      <REC id="18">TERM:ITXT</REC>
       <Source>Hold Upgrades Until I See Them: OFF</Source>
       <Dest>暂停升级直到我看到它们: 关闭</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="16">TERM:RNAM</REC>
+      <REC id="18">TERM:RNAM</REC>
       <Source>Turning on personal inspections...</Source>
       <Dest>开启 个人检视...</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="17">TERM:ITXT</REC>
+      <REC id="19">TERM:ITXT</REC>
       <Source>Initial Plot Costs: ON</Source>
       <Dest>地块初始消耗：开启</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="17">TERM:RNAM</REC>
+      <REC id="19">TERM:RNAM</REC>
       <Source>Turning off initial plot costs...</Source>
       <Dest>关闭地块初始消耗...</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="18">TERM:ITXT</REC>
+      <REC id="20">TERM:ITXT</REC>
       <Source>Initial Plot Costs: OFF</Source>
       <Dest>地块初始消耗：关闭</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="18">TERM:RNAM</REC>
+      <REC id="20">TERM:RNAM</REC>
       <Source>Turning on initial plot costs...</Source>
       <Dest>开启地块初始消耗...</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="19">TERM:ITXT</REC>
+      <REC id="21">TERM:ITXT</REC>
       <Source>Jobs Required: ON</Source>
       <Dest>工作需求：开启</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="19">TERM:RNAM</REC>
+      <REC id="21">TERM:RNAM</REC>
       <Source>Turning off job requirement...</Source>
       <Dest>关闭 工作需求...</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="20">TERM:ITXT</REC>
+      <REC id="22">TERM:ITXT</REC>
       <Source>Jobs Required: OFF</Source>
       <Dest>工作需求: 关闭</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="20">TERM:RNAM</REC>
+      <REC id="22">TERM:RNAM</REC>
       <Source>Turning on job requirement...</Source>
       <Dest>开启 工作需求...</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="21">TERM:ITXT</REC>
+      <REC id="23">TERM:ITXT</REC>
       <Source>Realistic Build Times: ON</Source>
       <Dest>真实建造时间：开启</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="21">TERM:RNAM</REC>
+      <REC id="23">TERM:RNAM</REC>
       <Source>Turning off Realistic Build Times</Source>
       <Dest>关闭真实建造时间</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="22">TERM:ITXT</REC>
+      <REC id="24">TERM:ITXT</REC>
       <Source>Realistic Build Times: OFF</Source>
       <Dest>真实建造时间：关闭</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="22">TERM:RNAM</REC>
+      <REC id="24">TERM:RNAM</REC>
       <Source>Turning on Realistic Build Times</Source>
       <Dest>开启真实建造时间</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="23">TERM:ITXT</REC>
+      <REC id="25">TERM:ITXT</REC>
+      <Source>Sounds - Ambient: ON</Source>
+      <Dest>音效 - 环境音: 开启</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
+      <REC id="25">TERM:RNAM</REC>
+      <Source>Turning off Ambient Sounds...</Source>
+      <Dest>关闭环境声音…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
+      <REC id="0">TERM:UNAM</REC>
+      <Source>Ambient sounds such as construction noises added by Sim Settlements are now off.</Source>
+      <Dest>环境声音，如建筑噪音，现在关闭。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
+      <REC id="26">TERM:ITXT</REC>
+      <Source>Sounds - Ambient: OFF</Source>
+      <Dest>声音 - 环境音：关闭</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
+      <REC id="26">TERM:RNAM</REC>
+      <Source>Turning on Ambient Sounds...</Source>
+      <Dest>打开环境声音…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
+      <REC id="1">TERM:UNAM</REC>
+      <Source>Ambient sounds such as construction noises added by Sim Settlements are now on.</Source>
+      <Dest>环境声音，如建筑噪音，现在开启。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
+      <REC id="27">TERM:ITXT</REC>
       <Source>Use Original Plot Size: OFF</Source>
       <Dest>使用旧版地块大小：关闭</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="23">TERM:RNAM</REC>
+      <REC id="27">TERM:RNAM</REC>
       <Source>Re-enabling original Plot Size...</Source>
       <Dest>重新启用旧版地块大小</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="0">TERM:UNAM</REC>
+      <REC id="2">TERM:UNAM</REC>
       <Source>In version 1.1.0, the default plots were switched to a standard 2x2 tile size. If you prefered the smaller size, turning this option on restores the original plots to be buildable as well.
 
 Note that new buildings added by Sim Settlements and AddOns may go over the boundaries of the original plot size, so it&apos;s recommended that you leave some space around them.</Source>
-      <Dest>在1.1.0版本，默认的地块被切换到一个标准的2x2的平铺尺寸。如果你喜欢尺寸较小，打开此选项恢复原来的地块大小。
+      <Dest>从1.1.0版本开始，默认的地块被切换到一个标准的2x2的平铺尺寸。如果你喜欢尺寸较小，打开此选项恢复原来的地块大小。
 
 请注意，新的建筑物可能超出原地块大小的界限，所以建议你留下一些他们周围的空间。</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="24">TERM:ITXT</REC>
+      <REC id="28">TERM:ITXT</REC>
       <Source>User Original Plot Size: ON</Source>
       <Dest>使用旧版地块大小：开启</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="24">TERM:RNAM</REC>
+      <REC id="28">TERM:RNAM</REC>
       <Source>Disabling original Plot Size...</Source>
       <Dest>禁用旧版地块大小...</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_SettingsHolotape_SubMenu_Gameplay_NoImmersion</EDID>
-      <REC id="1">TERM:UNAM</REC>
+      <REC id="3">TERM:UNAM</REC>
       <Source>In version 1.1.0, the default plots were switched to a standard 2x2 tile size. If you prefered the smaller size, turning this option on restores the original plots to be buildable as well.
 
 Note that new buildings added by Sim Settlements and AddOns may go over the boundaries of the original plot size, so it&apos;s recommended that you leave some space around them.</Source>
-      <Dest>在1.1.0版本，默认的地块被切换到一个标准的2x2的平铺尺寸。如果你喜欢尺寸较小，打开此选项恢复原来的地块大小。
+      <Dest>从1.1.0版本开始，默认的地块被切换到一个标准的2x2的平铺尺寸。如果你喜欢尺寸较小，打开此选项恢复原来的地块大小。
 
 请注意，新的建筑物可能超出原地块大小的界限，所以建议你留下一些他们周围的空间。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_TownHall_Terminal</EDID>
+      <REC>TERM:FULL</REC>
+      <Source>Terminal</Source>
+      <Dest>终端机</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_TownHall_Terminal</EDID>
+      <REC>TERM:BTXT</REC>
+      <Source>
+=================================================
+        &lt;User &quot;Jane Williams&quot; signed in&gt;
+=================================================
+
+</Source>
+      <Dest>
+=================================================
+        &lt;用户 &quot;Jane Williams&quot; 已登录 &gt;
+=================================================
+
+</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_TownHall_Terminal</EDID>
+      <REC id="0">TERM:ITXT</REC>
+      <Source>Wrong Sensors, Wrong Everything!</Source>
+      <Dest>错误的传感器，毁灭一切！</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_TownHall_Terminal</EDID>
+      <REC id="0">TERM:RNAM</REC>
+      <Source>Loading Memo...</Source>
+      <Dest>加载备忘录…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_TownHall_Terminal</EDID>
+      <REC id="0">TERM:UNAM</REC>
+      <Source>To Whom it May Concern,
+
+We received the new version of your program, but you sent us the Pipboy edition! And all these doohickies you sent us are last year&apos;s model! There are hundreds of them, what are we going to do with all of these?
+
+We expect you to send a courier to pick these up, as well as deliver the correct program, the newer model ones we ordered - AND we want all the optional features thrown in for our trouble - including the taser!
+
+Sincerely,
+
+Jane Williams
+Office of the Mayor
+Concord, MA</Source>
+      <Dest>任何可能会关注人：
+
+我们收到了你的程序的新版本，但你给我们的是pipboy版！所有这些你寄给我们的狗屎是去年的模型！有成百上千的个！我们要怎么处理这些？
+
+我们希望你派个快递员把这些拿走，以及顺便提供正确的程序，新的模型！-包括我们希望所有的可选功能，能解决我们的麻烦！包括泰瑟枪！
+
+真诚的，
+简·威廉姆斯
+市长办公室
+康科德，马萨诸塞</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_TownHall_Terminal</EDID>
+      <REC id="1">TERM:ITXT</REC>
+      <Source>RE: Renovations</Source>
+      <Dest>回复：装修</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_TownHall_Terminal</EDID>
+      <REC id="1">TERM:RNAM</REC>
+      <Source>Loading Message from mharrison...</Source>
+      <Dest>加载来自 mharrson的信息…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_TownHall_Terminal</EDID>
+      <REC id="1">TERM:UNAM</REC>
+      <Source>Oh thank god! I don&apos;t think I can take many more colonial flute and drums!
+
+-Marge
+
+===================================
+From: Jane, Williams
+Subject: Renovations
+===================================
+
+I just heard from upstairs that the renovations are almost done, only a month or so more. We&apos;ll probably be back to City Hall before Thanksgiving!
+
+-Jane</Source>
+      <Dest>哦感谢上帝！我不认为我可以拿更多的殖民长笛和鼓！
+
+-玛姬
+===================================
+来自：简，威廉姆斯
+主题：装修
+===================================
+
+我刚从楼上听说装修差不多就完成了，只剩下一个月左右了。感恩节前我们可能会回到市政厅！
+
+-简</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC>TERM:WNAM</REC>
+      <Source>Agricultural Tax Rate</Source>
+      <Dest>农业税</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC>TERM:FULL</REC>
+      <Source>Tax Rates</Source>
+      <Dest>税率</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC>TERM:BTXT</REC>
+      <Source> Tax Rate determines how much money your citizens must pay in taxes for each of their respective plots.</Source>
+      <Dest>税率决定你的公民必须为他们各自使用的各种土地支付多少税收。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="0">TERM:ITXT</REC>
+      <Source>Standard</Source>
+      <Dest>标准</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="0">TERM:RNAM</REC>
+      <Source>Changing Tax Rate...</Source>
+      <Dest>更改税率....</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="0">TERM:UNAM</REC>
+      <Source>Citizens will now be charged the normal calculated tax rate for Agricultural Plots.</Source>
+      <Dest>市民的农业地块现在将收取正常税金。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="1">TERM:ITXT</REC>
+      <Source>Half</Source>
+      <Dest>一半</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="1">TERM:RNAM</REC>
+      <Source>Changing Tax Rate...</Source>
+      <Dest>更改税率....</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="1">TERM:UNAM</REC>
+      <Source>Citizens will now be charged half the calculated tax rate for Agricultural Plots.
+</Source>
+      <Dest>市民的农业地块现在将收取一半的税金。
+</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="2">TERM:ITXT</REC>
+      <Source>No Tax</Source>
+      <Dest>无税</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="2">TERM:RNAM</REC>
+      <Source>Changing Tax Rate...</Source>
+      <Dest>更改税率....</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="2">TERM:UNAM</REC>
+      <Source>Citizens will no longer be charged taxes for Agricultural Plots.
+
+</Source>
+      <Dest>市民的农业地块现在将免除税金。
+
+</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="3">TERM:ITXT</REC>
+      <Source>Double</Source>
+      <Dest>双倍</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="3">TERM:RNAM</REC>
+      <Source>Changing Tax Rate...</Source>
+      <Dest>更改税率....</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Agricultural</EDID>
+      <REC id="3">TERM:UNAM</REC>
+      <Source>Citizens will now be charged double the calculated tax rate for Agricultural Plots.
+</Source>
+      <Dest>市民的农业地块现在将被收取两倍的税收。
+</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC>TERM:WNAM</REC>
+      <Source>Industrial Tax Rate</Source>
+      <Dest>工业税</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC>TERM:FULL</REC>
+      <Source>Tax Rates</Source>
+      <Dest>税率</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC>TERM:BTXT</REC>
+      <Source> Tax Rate determines how much money your citizens must pay in taxes for each of their respective plots.</Source>
+      <Dest>税率决定你的公民必须为他们各自使用的各种土地支付多少税收。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="0">TERM:ITXT</REC>
+      <Source>Standard</Source>
+      <Dest>标准</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="0">TERM:RNAM</REC>
+      <Source>Changing Tax Rate...</Source>
+      <Dest>更改税率....</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="0">TERM:UNAM</REC>
+      <Source>Citizens will now be charged the normal calculated tax rate for Industrial Plots.</Source>
+      <Dest>市民的工业地块现在将收取正常税金。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="1">TERM:ITXT</REC>
+      <Source>Half</Source>
+      <Dest>一半</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="1">TERM:RNAM</REC>
+      <Source>Changing Tax Rate...</Source>
+      <Dest>更改税率....</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="1">TERM:UNAM</REC>
+      <Source>Citizens will now be charged half the calculated tax rate for Industrial Plots.
+</Source>
+      <Dest>市民的工业地块现在将收取一半税金。
+</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="2">TERM:ITXT</REC>
+      <Source>No Tax</Source>
+      <Dest>无税</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="2">TERM:RNAM</REC>
+      <Source>Changing Tax Rate...</Source>
+      <Dest>更改税率....</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="2">TERM:UNAM</REC>
+      <Source>Citizens will no longer be charged taxes for Industrial Plots.
+
+</Source>
+      <Dest>市民的工业地块现在将免除税金。
+
+</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="3">TERM:ITXT</REC>
+      <Source>Double</Source>
+      <Dest>双倍</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="3">TERM:RNAM</REC>
+      <Source>Changing Tax Rate...</Source>
+      <Dest>更改税率....</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Tax_Multipliers_Industrial</EDID>
+      <REC id="3">TERM:UNAM</REC>
+      <Source>Citizens will now be charged double the calculated tax rate for Industrial Plots.
+</Source>
+      <Dest>市民的工业地块现在将被收取两倍的税收。
+</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC>TERM:WNAM</REC>
+      <Source>Tax Laws</Source>
+      <Dest>税收法令</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC>TERM:FULL</REC>
+      <Source>Taxes</Source>
+      <Dest>税收</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="0">TERM:ITXT</REC>
+      <Source>Tax Cycle: Daily</Source>
+      <Dest>税收周期：每日</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="0">TERM:RNAM</REC>
+      <Source>Loading Tax Cycle Options...</Source>
+      <Dest>加载税收循环选项…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="1">TERM:ITXT</REC>
+      <Source>Tax Cycle: Every 2 Days</Source>
+      <Dest>税收周期：每2天</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="1">TERM:RNAM</REC>
+      <Source>Loading Tax Cycle Options...</Source>
+      <Dest>加载税收循环选项…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="2">TERM:ITXT</REC>
+      <Source>Tax Cycle: Every 3 Days</Source>
+      <Dest>税收周期：每3天</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="2">TERM:RNAM</REC>
+      <Source>Loading Tax Cycle Options...</Source>
+      <Dest>加载税收循环选项…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="3">TERM:ITXT</REC>
+      <Source>Tax Cycle: Every 5 Days</Source>
+      <Dest>税收周期：每5天</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="3">TERM:RNAM</REC>
+      <Source>Loading Tax Cycle Options...</Source>
+      <Dest>加载税收循环选项…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="4">TERM:ITXT</REC>
+      <Source>Tax Cycle: Weekly</Source>
+      <Dest>税收周期：每周</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="4">TERM:RNAM</REC>
+      <Source>Loading Tax Cycle Options...</Source>
+      <Dest>加载税收循环选项…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="5">TERM:ITXT</REC>
+      <Source>Tax Cycle: Bi-Weekly</Source>
+      <Dest>税收周期：双周</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="5">TERM:RNAM</REC>
+      <Source>Loading Tax Cycle Options...</Source>
+      <Dest>加载税收循环选项…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="6">TERM:ITXT</REC>
+      <Source>Tax Cycle: Monthly</Source>
+      <Dest>税收周期：每月</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="6">TERM:RNAM</REC>
+      <Source>Loading Tax Cycle Options...</Source>
+      <Dest>加载税收循环选项…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="7">TERM:ITXT</REC>
+      <Source>Agricultural Tax Rate: Standard</Source>
+      <Dest>农业税：标准</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="7">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="8">TERM:ITXT</REC>
+      <Source>Agricultural Tax Rate: Half</Source>
+      <Dest>农业税：减半</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="8">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="9">TERM:ITXT</REC>
+      <Source>Agricultural Tax Rate: No Tax</Source>
+      <Dest>农业税：无</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="9">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="10">TERM:ITXT</REC>
+      <Source>Agricultural Tax Rate: Double</Source>
+      <Dest>农业税：加倍</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="10">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="11">TERM:ITXT</REC>
+      <Source>Commercial Tax Rate: Standard</Source>
+      <Dest>商业税：标准</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="11">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="12">TERM:ITXT</REC>
+      <Source>Commercial Tax Rate: Half</Source>
+      <Dest>商业税：减半</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="12">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="13">TERM:ITXT</REC>
+      <Source>Commercial Tax Rate: No Tax</Source>
+      <Dest>商业税：无</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="13">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="14">TERM:ITXT</REC>
+      <Source>Commercial Tax Rate: Double</Source>
+      <Dest>商业税：加倍</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="14">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="15">TERM:ITXT</REC>
+      <Source>Industrial Tax Rate: Standard</Source>
+      <Dest>工业税：标准</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="15">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="16">TERM:ITXT</REC>
+      <Source>Industrial Tax Rate: Half</Source>
+      <Dest>工业税：减半</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="16">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="17">TERM:ITXT</REC>
+      <Source>Industrial Tax Rate: No Tax</Source>
+      <Dest>工业税：无</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="17">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="18">TERM:ITXT</REC>
+      <Source>Industrial Tax Rate: Double</Source>
+      <Dest>工业税：加倍</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="18">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="19">TERM:ITXT</REC>
+      <Source>Residential Tax Rate: Standard</Source>
+      <Dest>住宅税：标准</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="19">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="20">TERM:ITXT</REC>
+      <Source>Residential Tax Rate: Half</Source>
+      <Dest>住宅税：减半</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="20">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="21">TERM:ITXT</REC>
+      <Source>Residential Tax Rate: No Tax</Source>
+      <Dest>住宅税：无</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="21">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="22">TERM:ITXT</REC>
+      <Source>Residential Tax Rate: Double</Source>
+      <Dest>住宅税：加倍</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SettingsHolotape_SubMenu_Taxes</EDID>
+      <REC id="22">TERM:RNAM</REC>
+      <Source>Loading Tax Rate Options...</Source>
+      <Dest>载入税务选项...</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC>TERM:FULL</REC>
+      <Source>Clinic Terminal</Source>
+      <Dest>临床终端</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="0">TERM:ITXT</REC>
+      <Source>Patient Record 61582</Source>
+      <Dest>病人记录61582</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="0">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="0">TERM:UNAM</REC>
+      <Source>Patient has chest pain if she lies on her left side for over a year.</Source>
+      <Dest>如果病人躺在她的左侧超过一年，她会胸痛。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="1">TERM:ITXT</REC>
+      <Source>Patient Record 79302</Source>
+      <Dest>病人记录79302</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="1">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="1">TERM:UNAM</REC>
+      <Source>Rectal examination revealed a normal sized thyroid.</Source>
+      <Dest>直肠检查显示甲状腺大小正常。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="2">TERM:ITXT</REC>
+      <Source>Patient Record 50716</Source>
+      <Dest>病人记录50716</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="2">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="2">TERM:UNAM</REC>
+      <Source>Skin: somewhat pale but present.</Source>
+      <Dest>皮肤：有点苍白，但存在。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="3">TERM:ITXT</REC>
+      <Source>Patient Record 82721</Source>
+      <Dest>病人记录82721</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="3">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="3">TERM:UNAM</REC>
+      <Source>Occasional, constant, infrequent headaches.</Source>
+      <Dest>偶然的，持续的，罕见的头痛。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="4">TERM:ITXT</REC>
+      <Source>Patient Record 29807</Source>
+      <Dest>病人记录29807</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="4">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="4">TERM:UNAM</REC>
+      <Source>Patient was alert and unresponsive.</Source>
+      <Dest>病人警觉和反应迟钝。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="5">TERM:ITXT</REC>
+      <Source>Patient Record 92573</Source>
+      <Dest>病人记录92573</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="5">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="5">TERM:UNAM</REC>
+      <Source>The patient has no previous history of suicides.</Source>
+      <Dest>患者既往无自杀史。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="6">TERM:ITXT</REC>
+      <Source>Patient Record 76217</Source>
+      <Dest>病人记录76217</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="6">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="6">TERM:UNAM</REC>
+      <Source>Acute pain related to witchcraft.</Source>
+      <Dest>与巫术有关的急性疼痛。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="7">TERM:ITXT</REC>
+      <Source>Patient Record 61272</Source>
+      <Dest>病人记录61272</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="7">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="7">TERM:UNAM</REC>
+      <Source>She is numbed from her toes down.</Source>
+      <Dest>她从她的脚趾开始麻木。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="8">TERM:ITXT</REC>
+      <Source>Patient Record 24740</Source>
+      <Dest>病人记录24740</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="8">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="8">TERM:UNAM</REC>
+      <Source>She stated that she had been constipated for most of her life, until she found Atom.</Source>
+      <Dest>她说她已经便秘了她大半辈子，直到她发现原子。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="9">TERM:ITXT</REC>
+      <Source>Patient Record 64590</Source>
+      <Dest>病人记录64590</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="9">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="9">TERM:UNAM</REC>
+      <Source>Bowel incontinence related to shyness.</Source>
+      <Dest>与害羞有关的大便失禁。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="10">TERM:ITXT</REC>
+      <Source>Patient Record 73542</Source>
+      <Dest>病人记录73542</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="10">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="10">TERM:UNAM</REC>
+      <Source>Discharge status: Alive but without permission.</Source>
+      <Dest>放电状态：活着但未经许可。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="11">TERM:ITXT</REC>
+      <Source>Patient Record 66689</Source>
+      <Dest>病人记录66689</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="11">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="11">TERM:UNAM</REC>
+      <Source>The patient refused autopsy.</Source>
+      <Dest>病人拒绝尸检。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="12">TERM:ITXT</REC>
+      <Source>Patient Record 61638</Source>
+      <Dest>病人记录61638</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="12">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="12">TERM:UNAM</REC>
+      <Source>Advised patient to take a bath.</Source>
+      <Dest>劝病人洗澡。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="13">TERM:ITXT</REC>
+      <Source>Patient Record 59409</Source>
+      <Dest>病人记录59409</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="13">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="13">TERM:UNAM</REC>
+      <Source>Both breasts are equal and reactive to light and touch.</Source>
+      <Dest>两个乳房都是一样的，无论对光和触摸的反应。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="14">TERM:ITXT</REC>
+      <Source>Patient Record 32502</Source>
+      <Dest>病人记录32502</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="14">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="14">TERM:UNAM</REC>
+      <Source>The patient�s feces are the same color as the door on my house.</Source>
+      <Dest>病人的粪便和我家门口的颜色一样。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="15">TERM:ITXT</REC>
+      <Source>Patient Record 33497</Source>
+      <Dest>病人记录33497</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="15">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="15">TERM:UNAM</REC>
+      <Source>The patient has done well without oxygen for the past year.</Source>
+      <Dest>病人过去一年没有氧气做得很好。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="16">TERM:ITXT</REC>
+      <Source>Patient Record 78137</Source>
+      <Dest>病人记录78137</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="16">TERM:RNAM</REC>
+      <Source>Loading Notes...</Source>
+      <Dest>加载提示…</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Clinic01</EDID>
+      <REC id="16">TERM:UNAM</REC>
+      <Source>All visible brain tissue had been removed. The patient has no neurological complaints after surgery.</Source>
+      <Dest>所有可见的脑组织已被移除。患者术后无神经系统主诉。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
+      <REC>TERM:WNAM</REC>
+      <Source>Atomic Command Awaits</Source>
+      <Dest>原子命令等待</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
+      <REC>TERM:FULL</REC>
+      <Source>Terminal</Source>
+      <Dest>终端机</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
+      <REC id="0">TERM:ITXT</REC>
+      <Source>Holy Crap It Works!</Source>
+      <Dest>日了！居然真行！</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
+      <REC id="0">TERM:UNAM</REC>
+      <Source>I can&apos;t believe I finally fixed one! Suck it, Steve!
+
+This is so exciting! I can store my notes, view all those holotapes I found, I can even start learning to hack! Those Vault computers are as good as mine!
+
+Ok, ok, time to focus and study up! Let&apos;s start with this tape - PipFall.</Source>
+      <Dest>我不敢相信我终于修好了！操！，史提夫！
+
+这是如此令人兴奋！我可以储存我的笔记，看那些全像卡带我发现，我甚至可以开始学习黑客！那些金库计算机和我的一样好！
+
+好的，时间集中和研究起来！让我们用这盘磁带开始：PipFall。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
+      <REC id="1">TERM:ITXT</REC>
+      <Source>Gotta Find More</Source>
+      <Dest>要找到更多</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
+      <REC id="1">TERM:UNAM</REC>
+      <Source>Video games are incredible! I feel like I discovered the cure to Rad sickness... they help me relieve stress, they keep my mind firing, and most importantly they let me escape this hell we call life!
+
+It makes me wonder how the world even ended, they should have just given games to everyone and there would have been nothing to fight over...
+
+I&apos;ve got to find more! I&apos;ll put the word out with Carla, she can bring me tapes - maybe even old terminals, somebody has to have left a game or two inside of one!</Source>
+      <Dest>电子游戏令人难以置信！我觉得我发现了治愈RAD病的方法…他们帮助我减轻压力，他们让我的思想燃烧，最重要的是他们让我逃离这地狱！我们称之为生活！
+
+它让我想知道世界是如何结束的，他们应该给每个人游戏，然后就没有什么不可以战胜…
+
+我必须找到更多！我会把这个告诉卡拉，她可以给我带来磁带-也许甚至老终端机，有人已经会在里面存着一两个游戏！</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
+      <REC id="2">TERM:ITXT</REC>
+      <Source>All At Once</Source>
+      <Dest>一次全部</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Terminal_Story08L3_Wall</EDID>
+      <REC id="2">TERM:UNAM</REC>
+      <Source>I think I found a way where I can play all the games at once!
+
+I just need more screens! </Source>
+      <Dest>我想我找到了一个可以同时玩所有游戏的方法！
+
+我只需要更多的屏幕！</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIMTestCell</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>SIM Settlements Test Cell</Source>
+      <Dest>SIM Settlements Test Cell</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIMObstacleNavCutDisplays</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Obstacle NavCut Build Cell</Source>
+      <Dest>Obstacle NavCut Build Cell</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIMSP14L3Cellar</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Root Cellar</Source>
+      <Dest>地窖</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIMBuildingStage</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>SIM Settlements Test Cell 2</Source>
+      <Dest>SIM Settlements Test Cell 2</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIMWorldObjectStaging</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>World Object Staging Area</Source>
+      <Dest>World Object Staging Area</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_AutoBuildParent</EDID>
@@ -5992,10 +7114,436 @@ Note that new buildings added by Sim Settlements and AddOns may go over the boun
       <Dest>建造地块和居住者</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_CreatureDialogueSynthDocile</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Combat Lines, Reaction Lines, Etc</Source>
+      <Dest>战斗线、反应线、等等</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Kitchen_InUse_Small</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Small Table Setting</Source>
+      <Dest>小表设置</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Alcohol_Stored_Tiny</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Stored Alcohol</Source>
+      <Dest>存储酒精</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrappable_Inactive</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Move things from Scrappable_Active to prevent scrapping</Source>
+      <Dest>Move things from Scrappable_Active to prevent scrapping</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Scrappable_Active</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Sim Settlements Stuff</Source>
+      <Dest>Sim Settlements Stuff</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ComA_DefaultBuildingPlans_ArmorStore</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>ArmorStores Size A Default Building Plans</Source>
+      <Dest>ArmorStores Size A Default Building Plans</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_LoadedBuildedPlans</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>All Loaded Building Plans - Filled At Runtime</Source>
+      <Dest>All Loaded Building Plans - Filled At Runtime</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ComA_DefaultBuildingPlans_ClothingStore</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>ClothingStores Size A Default Building Plans</Source>
+      <Dest>ClothingStores Size A Default Building Plans</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_CommercialBuildingsListSizeA_ClothingStore</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>ClothingStores List Size A</Source>
+      <Dest>ClothingStores List Size A</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomizedClutterMaster</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Props to be Randomized On Load</Source>
+      <Dest>加载时随机化的道具</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Alcohol_Stored_NarrowSmall</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Stored Alcohol</Source>
+      <Dest>存储酒精</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ConstructionIdles_Farm</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Idles For Construction Phase of Building</Source>
+      <Dest>Idles For Construction Phase of Building</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_AgriculturalBuildingsListSizeA</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Agricultural Buildings List Size A</Source>
+      <Dest>农业建筑列表 Size A</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_AgrA_DefaultBuildingPlans</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Agricultural Size A Default Building Plans</Source>
+      <Dest>农业地块建设原有大小</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_WorkshopMenus</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Holds our Workshop Menu Structure</Source>
+      <Dest>Holds our Workshop Menu Structure</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HasMotor</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Item Needs Motor Controlled</Source>
+      <Dest>物品需要马达控制</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Kitchen_Stored_NarrowMedium</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Stored Kitchen Supplies - Narrow Medium</Source>
+      <Dest>储存厨房用品-窄 中等大小</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_CommercialBuildingsListSizeA_ArmorStore</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>ArmorStores List Size A</Source>
+      <Dest>ArmorStores List Size A</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_KWTester</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Keyword Tester</Source>
+      <Dest>关键词测试仪</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Kitchen_InUse_NarrowLarge</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Narrow Large Table Setting</Source>
+      <Dest>窄台设置</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Rugs_Oval</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Oval Rugs</Source>
+      <Dest>椭圆形的地毯</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Food_Stored_NarrowMedium</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Stored Food</Source>
+      <Dest>储存的食物</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Food_Stored_NarrowSmall_Half</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Stored Food</Source>
+      <Dest>储存的食物</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Personal_InUse_NarrowMedium</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Misc Dresser</Source>
+      <Dest>杂项的梳妆台</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Kitchen_Stored_Small</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Stored Kitchen Supplies - Small</Source>
+      <Dest>储存厨房用品-小</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Paintings_Cats</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Cat Paintings</Source>
+      <Dest>猫的画</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_IndA_DefaultBuildingPlans</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Industrial Size A Default Building Plans</Source>
+      <Dest>Industrial Size A Default Building Plans</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Commercial_Open_Signs</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Open For Business Signs</Source>
+      <Dest>营业招牌</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ComA_DefaultBuildingPlans_Bar</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Bars Size A Default Building Plans</Source>
+      <Dest>Bars Size A Default Building Plans</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ComA_DefaultBuildingPlans_WeaponStore</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>WeaponStores Size A Default Building Plans</Source>
+      <Dest>WeaponStores Size A Default Building Plans</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Kitchen_InUse_Large</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Large Table Setting</Source>
+      <Dest>大表设置</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Alcohol_Stored_NarrowMedium</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Stored Alcohol</Source>
+      <Dest>存储酒精</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Misc_Stored_NarrowSmall</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Misc Shelf</Source>
+      <Dest>杂项架</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_CommercialBuildingsListSizeA_Clinic</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Clinics List Size A</Source>
+      <Dest>Clinics List Size A</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_UsedBuildings</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Used Buildings</Source>
+      <Dest>已使用建筑</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_CommercialBuildingsListSizeA_WeaponStore</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>WeaponStores List Size A</Source>
+      <Dest>WeaponStores List Size A</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SpawnNothing</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Blank List to Make Overriding Spawns Easy</Source>
+      <Dest>Blank List to Make Overriding Spawns Easy</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ComA_DefaultBuildingPlans_Clinic</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Clinics Size A Default Building Plans</Source>
+      <Dest>Clinics Size A Default Building Plans</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ComA_DefaultBuildingPlans_GeneralStore</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>General Stores Size A Default Building Plans</Source>
+      <Dest>通用商店地块建设原有方案</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_CommercialBuildingsListSizeA_GeneralStore</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>GeneralStores List Size A</Source>
+      <Dest>GeneralStores List Size A</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ScrapGeneratingBuildingsListSizeA</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Building Plans That Generate Scrap</Source>
+      <Dest>Building Plans That Generate Scrap</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ResA_DefaultBuildingPlans</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Residential Size A Default Building Plans</Source>
+      <Dest>Residential Size A Default Building Plans</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_AdvancedPowerUp</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Activation requires abDefaultProcessingOnly = false</Source>
+      <Dest>激活需要设置 abDefaultProcessingOnly = false</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Plots</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>List of Buildable Plots</Source>
+      <Dest>可建地块列表</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomizedClutterMasterSometimes</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Props to be Randomized Occasionally</Source>
+      <Dest>偶尔随机化的道具</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Food_Stored_Tiny</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Tiny Shelf of Stored Food</Source>
+      <Dest>贮藏食品的小货架</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_LongPowerUp</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Need to Delay Initial Activation</Source>
+      <Dest>需要延迟初始激活</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Personal_InUse_Small</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Misc Dresser</Source>
+      <Dest>杂项的梳妆台</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_DontLinkToWorkshop</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Spawned Objects to NOT link</Source>
+      <Dest>Spawned Objects to NOT link</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Misc_Stored_NarrowSmall_Half</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Misc Stored</Source>
+      <Dest>杂项存储</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ResidentialBuildingsListSizeA</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Residential Buildings List Size A</Source>
+      <Dest>Residential Buildings List Size A</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SingleBeds</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Single Beds</Source>
+      <Dest>单人床</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_AVTester</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Test AVs</Source>
+      <Dest>测试AVs</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_UsedStoryList</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Used Stories List - Should be blank</Source>
+      <Dest>Used Stories List - Should be blank</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_DefaultStoryList</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>SimSettlements:SimStory MiscObjects Only</Source>
+      <Dest>SimSettlements:SimStory MiscObjects Only</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_StoryList</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Story Master List - Should be blank</Source>
+      <Dest>Story Master List - Should be blank</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Alcohol_InUse_Small</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Bar Stuff In Use</Source>
+      <Dest>在使用中的酒吧用品</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_IndustrialBuildingsListSizeA</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Industrial Buildings List Size A</Source>
+      <Dest>Industrial Buildings List Size A</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SleepingBags</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Sleeping Bags for During Construction</Source>
+      <Dest>施工期间睡袋</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Paintings_Landscape</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Landscape Paintings</Source>
+      <Dest>山水画</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Alcohol_Stored_NarrowSmall_Half</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Stored Alcohol</Source>
+      <Dest>存储酒精</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Personal_InUse_Medium</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Personal In Use Medium</Source>
+      <Dest>个人使用媒体</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_CommercialBuildingsListSizeA_Other</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Other Commercial Buildings List Size A</Source>
+      <Dest>Other Commercial Buildings List Size A</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_CommercialBuildingsListSizeA_MasterList</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>All Commercial Formlists Size A Default Building Plans</Source>
+      <Dest>All Commercial Formlists Size A Default Building Plans</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_IndA_Path_BuildingPlans_Junk_L2_RecyclePath_Military</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Building Plans: Industrial L1 Recycle Military</Source>
+      <Dest>Building Plans: Industrial L1 Recycle Military</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_IndA_Path_BuildingPlans_Junk_L2_RecyclePath_Civilian</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Building Plans: Industrial L1 Recycle Civilian</Source>
+      <Dest>Building Plans: Industrial L1 Recycle Civilian</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_IndA_Path_BuildingPlans_Junk_L1_RecyclePath</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Building Plans: Industrial L1 Recycle Path</Source>
+      <Dest>Building Plans: Industrial L1 Recycle Path</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_ExternalStoryPairing</EDID>
       <REC>FLST:FULL</REC>
       <Source>Allows Mods to Add Stories to Homes</Source>
       <Dest>允许MODS添加故事</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_RandomClutter_Misc_Stored_Tiny</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Misc Shelf</Source>
+      <Dest>杂项架</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ConstructionIdles_General</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Idles For Construction Phase of Building</Source>
+      <Dest>Idles For Construction Phase of Building</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_IndA_Path_BuildingPlans_Junk_L2_SalvagePath_Military</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Building Plans: Industrial L2 Salvage Military</Source>
+      <Dest>Building Plans: Industrial L2 Salvage Military</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_IndA_Path_BuildingPlans_Junk_L2_SalvagePath_Civilian</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Building Plans: Industrial L2 Salvage Civilian</Source>
+      <Dest>Building Plans: Industrial L2 Salvage Civilian</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_Paintings_Abstract</EDID>
@@ -6016,6 +7564,18 @@ Note that new buildings added by Sim Settlements and AddOns may go over the boun
       <Dest>储存的食物</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_IndA_Path_BuildingPlans_Junk_L1_SalvagePath</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Building Plans: Industrial L1 Salvage Path</Source>
+      <Dest>Building Plans: Industrial L1 Salvage Path</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Paintings_Portrait</EDID>
+      <REC>FLST:FULL</REC>
+      <Source>Portrait Paintings</Source>
+      <Dest>肖像画</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_IndA_Paths_Junk</EDID>
       <REC>FLST:FULL</REC>
       <Source>Building Plan Paths: Industrial Junk</Source>
@@ -6028,88 +7588,34 @@ Note that new buildings added by Sim Settlements and AddOns may go over the boun
       <Dest>建造规划: 工业L0 废品回收</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_RandomClutter_Alcohol_Stored_Tiny</EDID>
+      <EDID>kgSIM_Rugs_Fancy</EDID>
       <REC>FLST:FULL</REC>
-      <Source>Stored Alcohol</Source>
-      <Dest>存储酒精</Dest>
+      <Source>Fancy Square Rugs</Source>
+      <Dest>奇特的方形地毯</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_RandomClutter_Alcohol_Stored_NarrowSmall</EDID>
+      <EDID>kgSIM_WavingFlags</EDID>
       <REC>FLST:FULL</REC>
-      <Source>Stored Alcohol</Source>
-      <Dest>存储酒精</Dest>
+      <Source>Waving Flag Poles</Source>
+      <Dest>飘扬的旗杆</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_AgriculturalBuildingsListSizeA</EDID>
+      <EDID>kgSIM_RandomClutter_Food_Stored_Small</EDID>
       <REC>FLST:FULL</REC>
-      <Source>Agricultural Buildings List Size A</Source>
-      <Dest>农业建筑列表 Size A</Dest>
+      <Source>Stored Food Half Shelf</Source>
+      <Dest>贮藏食品半架</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_AgrA_DefaultBuildingPlans</EDID>
+      <EDID>kgSIM_CommercialBuildingsListSizeA_Bar</EDID>
       <REC>FLST:FULL</REC>
-      <Source>Agricultural Size A Default Building Plans</Source>
-      <Dest>农业地块建设原有大小</Dest>
+      <Source>Bars List Size A</Source>
+      <Dest>列表栏大小A</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_RandomClutter_Food_Stored_NarrowMedium</EDID>
+      <EDID>kgSIM_SpawnableObjects</EDID>
       <REC>FLST:FULL</REC>
-      <Source>Stored Food</Source>
-      <Dest>储存的食物</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_RandomClutter_Food_Stored_NarrowSmall_Half</EDID>
-      <REC>FLST:FULL</REC>
-      <Source>Stored Food</Source>
-      <Dest>储存的食物</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_Paintings_Cats</EDID>
-      <REC>FLST:FULL</REC>
-      <Source>Cat Paintings</Source>
-      <Dest>猫的画</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_RandomClutter_Alcohol_Stored_NarrowMedium</EDID>
-      <REC>FLST:FULL</REC>
-      <Source>Stored Alcohol</Source>
-      <Dest>存储酒精</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_ComA_DefaultBuildingPlans_GeneralStore</EDID>
-      <REC>FLST:FULL</REC>
-      <Source>General Stores Size A Default Building Plans</Source>
-      <Dest>通用商店地块建设原有方案</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_AdvancedPowerUp</EDID>
-      <REC>FLST:FULL</REC>
-      <Source>Activation requires abDefaultProcessingOnly = false</Source>
-      <Dest>激活需要设置 abDefaultProcessingOnly = false</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_RandomClutter_Alcohol_InUse_Small</EDID>
-      <REC>FLST:FULL</REC>
-      <Source>Bar Stuff In Use</Source>
-      <Dest>在使用中的酒吧用品</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_RandomClutter_Alcohol_Stored_NarrowSmall_Half</EDID>
-      <REC>FLST:FULL</REC>
-      <Source>Stored Alcohol</Source>
-      <Dest>存储酒精</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_FindSettlerOverride</EDID>
-      <REC>PERK:FULL</REC>
-      <Source>Find Settler Override</Source>
-      <Dest>找到手动覆盖的移民</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_FindSettlerOverride</EDID>
-      <REC>PERK:EPFD</REC>
-      <Source> Find Owner</Source>
-      <Dest>找到主人</Dest>
+      <Source>Spawnable Objects</Source>
+      <Dest>可刷新对象</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_ViewZoneDetails</EDID>
@@ -6122,6 +7628,12 @@ Note that new buildings added by Sim Settlements and AddOns may go over the boun
       <REC>PERK:EPF2</REC>
       <Source>Look at Plaque</Source>
       <Dest>查看告示牌</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_Repair</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Repair Perk</Source>
+      <Dest>修复Perk</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_Repair</EDID>
@@ -6142,10 +7654,16 @@ Note that new buildings added by Sim Settlements and AddOns may go over the boun
       <Dest>宠物</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_PlotType</EDID>
-      <REC>AVIF:FULL</REC>
-      <Source>Plot Type</Source>
-      <Dest>地块标识类型</Dest>
+      <EDID>kgSIM_FindSettlerOverride</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Find Settler Override</Source>
+      <Dest>找到手动覆盖的移民</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_FindSettlerOverride</EDID>
+      <REC>PERK:EPFD</REC>
+      <Source> Find Owner</Source>
+      <Dest>找到主人</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_RandomizedClutter</EDID>
@@ -6160,64 +7678,16 @@ Note that new buildings added by Sim Settlements and AddOns may go over the boun
       <Dest>随机杂波</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_BuildingOccupiedResidential</EDID>
-      <REC>MESG:FULL</REC>
-      <Source>Building Occupied Residential</Source>
-      <Dest>正在建设获得的住宅</Dest>
+      <EDID>kgSIM_PlotType</EDID>
+      <REC>AVIF:FULL</REC>
+      <Source>Plot Type</Source>
+      <Dest>地块标识类型</Dest>
     </String>
     <String List="0">
-      <EDID>kgSIM_LotOccupiedAgricultural</EDID>
-      <REC>MESG:FULL</REC>
-      <Source>Lot Occupied Agricultural</Source>
-      <Dest>划分占用的农业地块</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_BuildingCompleteIndustrial</EDID>
-      <REC>MESG:FULL</REC>
-      <Source>Building Complete Industrial</Source>
-      <Dest>建立完整的工业地块</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_BuildingOccupiedIndustrial</EDID>
-      <REC>MESG:FULL</REC>
-      <Source>Building Occupied Agricultural</Source>
-      <Dest>正在建设占用的农业地块</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_BuildingUpgradedIndustrial</EDID>
-      <REC>MESG:FULL</REC>
-      <Source>Building Upgraded Industrial</Source>
-      <Dest>正在建造已升级的工业地块</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_LotOccupiedIndustrial</EDID>
-      <REC>MESG:FULL</REC>
-      <Source>Lot Occupied Industrial</Source>
-      <Dest>划分占用的工业地块</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_SP20L3_MissingIngredients</EDID>
-      <REC>MESG:FULL</REC>
-      <Source>Missing Ingredients</Source>
-      <Dest>缺少组成部分</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_BuildingCompleteResidential</EDID>
-      <REC>MESG:FULL</REC>
-      <Source>Building Complete Residential</Source>
-      <Dest>正在建设完整自用住宅</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_HammerForceUpdate</EDID>
-      <REC>MESG:FULL</REC>
-      <Source>Hammer Force Update</Source>
-      <Dest>升级锤强制升级</Dest>
-    </String>
-    <String List="0">
-      <EDID>kgSIM_CommercialHomeRequirementWarning</EDID>
-      <REC>MESG:FULL</REC>
-      <Source>Not Enough Homes</Source>
-      <Dest>没有足够的住房</Dest>
+      <EDID>kgSIM_Story</EDID>
+      <REC>AVIF:FULL</REC>
+      <Source>Story Int</Source>
+      <Dest>Story Int</Dest>
     </String>
     <String List="0">
       <EDID>kgSIM_DestroyAllPlotsConfirmation</EDID>
@@ -6322,6 +7792,12 @@ Note that new buildings added by Sim Settlements and AddOns may go over the boun
       <Dest>无法更新链接关键字</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_DeficitMessage</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Settlement Rating Deficits</Source>
+      <Dest>聚落等级的赤字</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_BuildingOccupiedAgricultural</EDID>
       <REC>MESG:FULL</REC>
       <Source>Building Occupied Agricultural</Source>
@@ -6340,10 +7816,100 @@ Note that new buildings added by Sim Settlements and AddOns may go over the boun
       <Dest>该种族无法分配到地块警告</Dest>
     </String>
     <String List="0">
+      <EDID>kgSIM_PlotMovementWarning</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Plot Movement Warning</Source>
+      <Dest>地块移动警告</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_PlotMovementWarning</EDID>
+      <REC id="0">MESG:ITXT</REC>
+      <Source>No, I&apos;ll cancel the movement.</Source>
+      <Dest>不，我会取消这项行动。</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_PlotMovementWarning</EDID>
+      <REC id="1">MESG:ITXT</REC>
+      <Source>Yeah, knock it down!</Source>
+      <Dest>是的，击倒它！</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_PlotMovementWarning</EDID>
+      <REC id="2">MESG:ITXT</REC>
+      <Source>Yes, but rebuild the same model.</Source>
+      <Dest>是的，但重建相同的模型。</Dest>
+    </String>
+    <String List="0">
       <EDID>kgSIM_PlotNotInitialized</EDID>
       <REC>MESG:FULL</REC>
       <Source>Plot Not Initialized</Source>
       <Dest>地块没有初始化</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingOccupiedResidential</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Building Occupied Residential</Source>
+      <Dest>正在建设获得的住宅</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_LotOccupiedAgricultural</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Lot Occupied Agricultural</Source>
+      <Dest>划分占用的农业地块</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingCompleteIndustrial</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Building Complete Industrial</Source>
+      <Dest>建立完整的工业地块</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingOccupiedIndustrial</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Building Occupied Agricultural</Source>
+      <Dest>正在建设占用的农业地块</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingUpgradedIndustrial</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Building Upgraded Industrial</Source>
+      <Dest>正在建造已升级的工业地块</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_LotOccupiedIndustrial</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Lot Occupied Industrial</Source>
+      <Dest>划分占用的工业地块</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_SP20L3_MissingIngredients</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Missing Ingredients</Source>
+      <Dest>缺少组成部分</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_BuildingCompleteResidential</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Building Complete Residential</Source>
+      <Dest>正在建设完整自用住宅</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_HammerForceUpdate</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Hammer Force Update</Source>
+      <Dest>升级锤强制升级</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_CommercialHomeRequirementWarning</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Not Enough Homes</Source>
+      <Dest>没有足够的住房</Dest>
+    </String>
+    <String List="0">
+      <EDID>kgSIM_ToggleableSounds</EDID>
+      <REC>SNCT:FULL</REC>
+      <Source>Sim Settlements Toggleable Sounds</Source>
+      <Dest>Sim Settlements 可关闭的声音</Dest>
     </String>
     <String List="1">
       <EDID>kgSIM_BuildingPlaque-Test</EDID>
@@ -6455,12 +8021,6 @@ Make it happen!
       <Dest>初始化完毕</Dest>
     </String>
     <String List="1">
-      <EDID>kgSIM_FindSettlerOverride</EDID>
-      <REC>PERK:DESC</REC>
-      <Source>Changes the name of the default activate on plots.</Source>
-      <Dest>更改标识的默认激活名称。</Dest>
-    </String>
-    <String List="1">
       <EDID>kgSIM_ViewZoneDetails</EDID>
       <REC>PERK:DESC</REC>
       <Source>Allows player to see extra options on building zone plots.</Source>
@@ -6473,6 +8033,18 @@ Make it happen!
       <Dest>允许玩家在指向时看到刷新出的故事人物名字</Dest>
     </String>
     <String List="1">
+      <EDID>kgSIM_FindSettlerOverride</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Changes the name of the default activate on plots.</Source>
+      <Dest>更改标识的默认激活名称。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_RandomizedClutter</EDID>
+      <REC>AVIF:DESC</REC>
+      <Source>Acts as a keyword of sorts to flag statics for random swapping</Source>
+      <Dest>作为一个关键字来为随机交换标识静态标记</Dest>
+    </String>
+    <String List="1">
       <EDID>kgSIM_PlotType</EDID>
       <REC>AVIF:DESC</REC>
       <Source>Used to indicate Sim Settlement Plots for quick finding with GetWorkshopResourceObjects.</Source>
@@ -6483,120 +8055,6 @@ Make it happen!
       <REC>AVIF:DESC</REC>
       <Source>Holds an integer referencing a &quot;Story&quot; in SIMSettlement Parent quest</Source>
       <Dest>持有一个整数引用的“Story”在SimSettlement父任务中</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_RandomizedClutter</EDID>
-      <REC>AVIF:DESC</REC>
-      <Source>Acts as a keyword of sorts to flag statics for random swapping</Source>
-      <Dest>作为一个关键字来为随机交换标识静态标记</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_BuildingOccupiedResidential</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: A citizen moved into an abandoned home at &lt;Alias=MessagePlotLocation&gt;.</Source>
-      <Dest>城市管家2078: 一个居民搬入了一个被遗弃的居所，位于: &lt;Alias=MessagePlotLocation&gt;.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_LotOccupiedAgricultural</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: A citizen started constructing a farm at &lt;Alias=MessagePlotLocation&gt;.</Source>
-      <Dest>城市管家2078: 一个居民正在建造一间商店，位于: &lt;Alias=MessagePlotLocation&gt;.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_BuildingCompleteIndustrial</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: A citizen finished setting up a factory at &lt;Alias=MessagePlotLocation&gt;.</Source>
-      <Dest>城市管家2078：一个居民完成了工厂的建造，位于:&lt;Alias=MessagePlotLocation&gt;。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_BuildingOccupiedIndustrial</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: A citizen took over an abandoned factory at &lt;Alias=MessagePlotLocation&gt;.</Source>
-      <Dest>城市管家2078：一个居民接手了一个废弃的工厂，位于:&lt;Alias=MessagePlotLocation&gt;。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_BuildingUpgradedIndustrial</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: A citizen just finished some improvements on their factory at &lt;Alias=MessagePlotLocation&gt;.</Source>
-      <Dest>城市管家2078：一位居民刚刚完成了一间工厂的升级，位于:&lt;Alias=MessagePlotLocation&gt;</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_LotOccupiedIndustrial</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: A citizen started constructing a factory at &lt;Alias=MessagePlotLocation&gt;.</Source>
-      <Dest>城市管家2078: 一个居民正在建造一间商店，位于: &lt;Alias=MessagePlotLocation&gt;.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_SP20L3_MissingIngredients</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>You need three pieces of cloth and a piece of leather to refill the machine.</Source>
-      <Dest>你需要三块布料和一块皮革来填充机器。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_BuildingCompleteResidential</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: A citizen just finished building their house at &lt;Alias=MessagePlotLocation&gt;.</Source>
-      <Dest>城市管家2078：一个居民完成了房屋的建造，位于:&lt;Alias=MessagePlotLocation&gt;。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_HammerForceUpdate</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>Refreshing building model and spawned objects.</Source>
-      <Dest>刷新模型和生成对象。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_CommercialHomeRequirementWarning</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: There aren&apos;t enough homes to support commercial development yet.</Source>
-      <Dest>城市管家2078：没有足够的家庭来支持商业发展。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_SettlementPlotsProcessing</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>Sim Settlements: Found plots in &lt;Alias=CitizenNeedsLocation&gt;, processing...</Source>
-      <Dest>Sim Settlements: 在 &lt;Alias=CitizenNeedsLocation&gt; 发现地块, 正在处理...</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_OneTimeUpgradeComplete</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>Sim Settlements has completed it&apos;s updates on this Save. You are good to go!</Source>
-      <Dest>Sim Settlements已经完成了它的数据更新。你可以搞起了！</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_OneTimeUpgrade</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>Sim Settlements needs to update it&apos;s data storage. This could take a few minutes.
-
-Please don&apos;t interact with or build any new Plots until you get a message that this process is complete.
-
-You can continue to play the rest of the game while you wait!</Source>
-      <Dest>Sim Settlements 需要更新它的数据存储。这可能需要几分钟。
-请不要互动或建立任何新的地块，直到你得到消息，这个过程是完整的。
-在等待时你可以继续玩其余的游戏！</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_DestroySettlementPlots</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: ASAM Sensors location, starting detonation at &lt;Alias=MessagePlotLocation&gt;.</Source>
-      <Dest>城市管家2078：ASAM传感器开始自毁，位于&lt;Alias=MessagePlotLocation&gt;。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_DestroyAllPlots_Complete</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: ASAM Sensor self-destruct sequence complete. All plots destroyed.</Source>
-      <Dest>城市管家2078：ASAM传感器自毁程序完成。所有地块被毁。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_DestroyAllPlots_Start</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: Initializing ASAM Sensor detonation sequence.</Source>
-      <Dest>城市管家2078：ASAM传感器正在启动自毁程序。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_DestroyAllPlots_InProgress</EDID>
-      <REC>MESG:DESC</REC>
-      <Source>City Manager 2078: Self-Destruct sequence is currently running, please wait for it to complete before starting another run.</Source>
-      <Dest>城市管家2078：自毁序列目前正在运行，请等待它完成之后再开始另一个运行。</Dest>
     </String>
     <String List="1">
       <EDID>kgSIM_DestroyAllPlotsConfirmation</EDID>
@@ -6768,6 +8226,224 @@ Happiness: %.0f%%</Source>
       <Dest>城市管家2078：税务日！$%.0f.00 是你指定的税率，访问你的每一个城市收集税收！</Dest>
     </String>
     <String List="1">
+      <EDID>kgSIM_BuildingOccupiedResidential</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: A citizen moved into an abandoned home at &lt;Alias=MessagePlotLocation&gt;.</Source>
+      <Dest>城市管家2078: 一个居民搬入了一个被遗弃的居所，位于: &lt;Alias=MessagePlotLocation&gt;.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_LotOccupiedAgricultural</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: A citizen started constructing a farm at &lt;Alias=MessagePlotLocation&gt;.</Source>
+      <Dest>城市管家2078: 一个居民正在建造一间商店，位于: &lt;Alias=MessagePlotLocation&gt;.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_BuildingCompleteIndustrial</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: A citizen finished setting up a factory at &lt;Alias=MessagePlotLocation&gt;.</Source>
+      <Dest>城市管家2078：一个居民完成了工厂的建造，位于:&lt;Alias=MessagePlotLocation&gt;。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_BuildingOccupiedIndustrial</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: A citizen took over an abandoned factory at &lt;Alias=MessagePlotLocation&gt;.</Source>
+      <Dest>城市管家2078：一个居民接手了一个废弃的工厂，位于:&lt;Alias=MessagePlotLocation&gt;。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_BuildingUpgradedIndustrial</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: A citizen just finished some improvements on their factory at &lt;Alias=MessagePlotLocation&gt;.</Source>
+      <Dest>城市管家2078：一位居民刚刚完成了一间工厂的升级，位于:&lt;Alias=MessagePlotLocation&gt;</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_LotOccupiedIndustrial</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: A citizen started constructing a factory at &lt;Alias=MessagePlotLocation&gt;.</Source>
+      <Dest>城市管家2078: 一个居民正在建造一间商店，位于: &lt;Alias=MessagePlotLocation&gt;.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_SP20L3_MissingIngredients</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>You need three pieces of cloth and a piece of leather to refill the machine.</Source>
+      <Dest>你需要三块布料和一块皮革来填充机器。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_BuildingCompleteResidential</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: A citizen just finished building their house at &lt;Alias=MessagePlotLocation&gt;.</Source>
+      <Dest>城市管家2078：一个居民完成了房屋的建造，位于:&lt;Alias=MessagePlotLocation&gt;。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_HammerForceUpdate</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Refreshing building model and spawned objects.</Source>
+      <Dest>刷新模型和生成对象。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_CommercialHomeRequirementWarning</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: There aren&apos;t enough homes to support commercial development yet.</Source>
+      <Dest>城市管家2078：没有足够的家庭来支持商业发展。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_SettlementPlotsProcessing</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Sim Settlements: Found plots in &lt;Alias=CitizenNeedsLocation&gt;, processing...</Source>
+      <Dest>Sim Settlements: 在 &lt;Alias=CitizenNeedsLocation&gt; 发现地块, 正在处理...</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_OneTimeUpgradeComplete</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Sim Settlements has completed its updates on this Save. You are good to go!</Source>
+      <Dest>Sim Settlements已完成游戏存档的更新。可以开始游玩了！</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_OneTimeUpgrade</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Sim Settlements needs to update its data storage. This could take a few minutes.
+
+Please don&apos;t interact with or build any new Plots until you get a pop-up message like this one that this process is complete.
+
+You can continue to play the rest of the game while you wait!</Source>
+      <Dest>Sim Settlements 需要更新其数据存储文件。这可能需要几分钟。
+
+请不要与任何Sim Settlements地块互动或建立任何新的地块，直到你收到完成更新的弹出消息。
+
+在等待时你可以继续玩游戏的非 Sim Settlements部分！</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_DestroySettlementPlots</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: ASAM Sensors location, starting detonation at &lt;Alias=MessagePlotLocation&gt;.</Source>
+      <Dest>城市管家2078：ASAM传感器开始自毁，位于&lt;Alias=MessagePlotLocation&gt;。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_DestroyAllPlots_Complete</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: ASAM Sensor self-destruct sequence complete. All plots destroyed.</Source>
+      <Dest>城市管家2078：ASAM传感器自毁程序完成。所有地块被毁。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_DestroyAllPlots_Start</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: Initializing ASAM Sensor detonation sequence.</Source>
+      <Dest>城市管家2078：ASAM传感器正在启动自毁程序。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_DestroyAllPlots_InProgress</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>City Manager 2078: Self-Destruct sequence is currently running, please wait for it to complete before starting another run.</Source>
+      <Dest>城市管家2078：自毁序列目前正在运行，请等待它完成之后再开始另一个运行。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_IndustrialPlot_Size2x2_Concrete</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Industrial Plot - allows a settler to build factory in this location.</Source>
+      <Dest>工业地块地标 - 允许居民在此建造一间工厂.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_ResidentialPlot_Size2x2_Concrete</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Residential Plot - A settler can build a home in this area.</Source>
+      <Dest>住宅地块地标 - 居民可以在此建造一栋房屋。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_ResidentialPlot_SizeA_Concrete</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Residential Plot - A settler can build a home in this area.</Source>
+      <Dest>住宅地块地标 - 居民可以在此建造一栋房屋。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_ResidentialPlot_SizeA_Wood_Free</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Residential Plot - A settler can build a home in this area.</Source>
+      <Dest>住宅地块地标 - 居民可以在此建造一栋房屋。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_CommercialPlot_Size2x2_Wood</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Commercial Plot - allows a settler to build a  business in this spot.</Source>
+      <Dest>商业地块地标 - 允许居民再次建造一间商店.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_CommercialPlot_Size2X2_Concrete</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Commercial Plot - allows a settler to build a  business in this spot.</Source>
+      <Dest>商业地块地标 - 允许居民再次建造一间商店.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_CommercialPlot_SizeA</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Commercial Plot - allows a settler to build a  business in this spot.</Source>
+      <Dest>商业地块地标 - 允许居民再次建造一间商店.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_ResidentialPlot_SizeA_Free</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Residential Plot - allows a settler to build a  home in this spot.</Source>
+      <Dest>住宅地块地标 - 允许居民在此建造一栋房屋.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_ResidentialPlot_SizeA_Wood</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Residential Plot - A settler can build a home in this area.</Source>
+      <Dest>住宅地块地标 - 居民可以在此建造一栋房屋。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_IndustrialPlot_SizeA</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Industrial Plot - allows a settler to build factory in this location.</Source>
+      <Dest>工业地块地标 - 允许居民在此建造一间工厂.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_AgriculturalPlot_SizeA</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Agricultural Plot - allows a settler to start a farm in this spot.</Source>
+      <Dest>农业地块地标 - 允许居民在此建造一座农场.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_ResidentialPlot_SizeA</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Residential Plot - allows a settler to build a  home in this spot.</Source>
+      <Dest>住宅地块地标 - 允许居民在此建造一栋房屋.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_co_ASAM_Sensor</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>The 2077 edition of the Gathco Advanced Survey and Activity Monitor Sensor - used in designating plots for the City Manager software.</Source>
+      <Dest>2077版的先进的测量和监控活动传感器，用于为城市管家2077软件指定一块地块的功能。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_IndustrialPlot_SizeA_Concrete_Free</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Industrial Plot - allows a settler to build factory in this location.</Source>
+      <Dest>工业地块地标 - 允许居民在此建造一间工厂.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_ImmersionBreakerBreaker</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Tool for fixing issues with Sim Settlements. It will reset all spawned objects on a Plot, as well as destroy things left behind.</Source>
+      <Dest>用于解决Sim Settlements问题的工具。它将重置该地块上所有生成的对象，以及销毁其他的东西。</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_ResidentialPlot_Size2x2_Wood</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Residential Plot - allows a settler to build a  home in this spot.</Source>
+      <Dest>住宅地块地标 - 允许居民在此建造一栋房屋.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_CommercialPlot_SizeA_Wood_Free</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Commercial Plot - allows a settler to build a  business in this spot.</Source>
+      <Dest>商业地块地标 - 允许居民再次建造一间商店.</Dest>
+    </String>
+    <String List="1">
+      <EDID>kgSIM_COBJ_IndustrialPlot_Size2x2</EDID>
+      <REC>COBJ:DESC</REC>
+      <Source>Industrial Plot - allows a settler to build factory in this location.</Source>
+      <Dest>工业地块地标 - 允许居民在此建造一间工厂.</Dest>
+    </String>
+    <String List="1">
       <EDID>kgSIM_COBJ_CommercialPlot_SizeA_Concrete_Free</EDID>
       <REC>COBJ:DESC</REC>
       <Source>Commercial Plot - allows a settler to build a  business in this spot.</Source>
@@ -6886,114 +8562,6 @@ Happiness: %.0f%%</Source>
       <REC>COBJ:DESC</REC>
       <Source>Agricultural Plot - allows a settler to start a farm in this spot.</Source>
       <Dest>农业地块地标 - 允许居民在此建造一座农场.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_IndustrialPlot_Size2x2_Concrete</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Industrial Plot - allows a settler to build factory in this location.</Source>
-      <Dest>工业地块地标 - 允许居民在此建造一间工厂.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_ResidentialPlot_Size2x2_Concrete</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Residential Plot - A settler can build a home in this area.</Source>
-      <Dest>住宅地块地标 - 居民可以在此建造一栋房屋。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_ResidentialPlot_SizeA_Concrete</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Residential Plot - A settler can build a home in this area.</Source>
-      <Dest>住宅地块地标 - 居民可以在此建造一栋房屋。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_ResidentialPlot_SizeA_Wood_Free</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Residential Plot - A settler can build a home in this area.</Source>
-      <Dest>住宅地块地标 - 居民可以在此建造一栋房屋。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_CommercialPlot_Size2x2_Wood</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Commercial Plot - allows a settler to build a  business in this spot.</Source>
-      <Dest>商业地块地标 - 允许居民再次建造一间商店.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_CommercialPlot_Size2X2_Concrete</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Commercial Plot - allows a settler to build a  business in this spot.</Source>
-      <Dest>商业地块地标 - 允许居民再次建造一间商店.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_CommercialPlot_SizeA</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Commercial Plot - allows a settler to build a  business in this spot.</Source>
-      <Dest>商业地块地标 - 允许居民再次建造一间商店.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_ResidentialPlot_SizeA_Free</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Residential Plot - allows a settler to build a  home in this spot.</Source>
-      <Dest>住宅地块地标 - 允许居民在此建造一栋房屋.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_ResidentialPlot_SizeA_Wood</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Residential Plot - A settler can build a home in this area.</Source>
-      <Dest>住宅地块地标 - 居民可以在此建造一栋房屋。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_IndustrialPlot_SizeA</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Industrial Plot - allows a settler to build factory in this location.</Source>
-      <Dest>工业地块地标 - 允许居民在此建造一间工厂.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_AgriculturalPlot_SizeA</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Agricultural Plot - allows a settler to start a farm in this spot.</Source>
-      <Dest>农业地块地标 - 允许居民在此建造一座农场.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_ResidentialPlot_SizeA</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Residential Plot - allows a settler to build a  home in this spot.</Source>
-      <Dest>住宅地块地标 - 允许居民在此建造一栋房屋.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_co_ASAM_Sensor</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>The 2077 edition of the Gathco Advanced Survey and Activity Monitor Sensor - used in designating plots for the City Manager software.</Source>
-      <Dest>2077版的先进的测量和监控活动传感器，用于为城市管家2077软件指定一块地块的功能。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_IndustrialPlot_SizeA_Concrete_Free</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Industrial Plot - allows a settler to build factory in this location.</Source>
-      <Dest>工业地块地标 - 允许居民在此建造一间工厂.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_ImmersionBreakerBreaker</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Tool for fixing issues with Sim Settlements. It will reset all spawned objects on a Plot, as well as destroy things left behind.</Source>
-      <Dest>用于解决Sim Settlements问题的工具。它将重置该地块上所有生成的对象，以及销毁其他的东西。</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_ResidentialPlot_Size2x2_Wood</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Residential Plot - allows a settler to build a  home in this spot.</Source>
-      <Dest>住宅地块地标 - 允许居民在此建造一栋房屋.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_CommercialPlot_SizeA_Wood_Free</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Commercial Plot - allows a settler to build a  business in this spot.</Source>
-      <Dest>商业地块地标 - 允许居民再次建造一间商店.</Dest>
-    </String>
-    <String List="1">
-      <EDID>kgSIM_COBJ_IndustrialPlot_Size2x2</EDID>
-      <REC>COBJ:DESC</REC>
-      <Source>Industrial Plot - allows a settler to build factory in this location.</Source>
-      <Dest>工业地块地标 - 允许居民在此建造一间工厂.</Dest>
     </String>
     <String List="2">
       <EDID>[01003650]</EDID>
